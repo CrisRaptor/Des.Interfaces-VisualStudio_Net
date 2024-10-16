@@ -1,0 +1,192 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5DDEBD1D-E1C5-4C82-80D0-F7A96E45FF4E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>VentaCoches_v2</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="extrasCoches\extrasCoches.sln" />
+    <Content Include="extrasCoches\extrasCoches\bin\Debug\extrasCoches.exe" />
+    <Content Include="extrasCoches\extrasCoches\bin\Debug\extrasCoches.pdb" />
+    <Content Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.FileListAbsolute.txt" />
+    <Content Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.exe" />
+    <Content Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.pdb" />
+    <Content Include="PrimeraPrueba\PrimeraPrueba.sln" />
+    <Content Include="PrimeraPrueba\PrimeraPrueba\bin\Debug\PrimeraPrueba.exe" />
+    <Content Include="PrimeraPrueba\PrimeraPrueba\bin\Debug\PrimeraPrueba.pdb" />
+    <Content Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.FileListAbsolute.txt" />
+    <Content Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.exe" />
+    <Content Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.pdb" />
+    <Content Include="TextoFormato\TextoFormato.sln" />
+    <Content Include="TextoFormato\TextoFormato\bin\Debug\TextoFormato.exe" />
+    <Content Include="TextoFormato\TextoFormato\bin\Debug\TextoFormato.pdb" />
+    <Content Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.FileListAbsolute.txt" />
+    <Content Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.exe" />
+    <Content Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.pdb" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1.sln" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\bin\Debug\VentaCoches_v1.exe" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\bin\Debug\VentaCoches_v1.pdb" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.csproj.FileListAbsolute.txt" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.exe" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.pdb" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\ceed-520x260.png" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\default.png" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\logo_kia_black-rbr.png" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\niro-hev-520x260.png" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\picanto-520x260.png" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\sorento-24-520x260.png" />
+    <Content Include="VentaCoches_v1\VentaCoches_v1\Resources\sportage-520x260.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="extrasCoches\extrasCoches\App.config" />
+    <None Include="extrasCoches\extrasCoches\bin\Debug\extrasCoches.exe.config" />
+    <None Include="extrasCoches\extrasCoches\extrasCoches.csproj" />
+    <None Include="extrasCoches\extrasCoches\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="extrasCoches\extrasCoches\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.AssemblyReference.cache" />
+    <None Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.CoreCompileInputs.cache" />
+    <None Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.GenerateResource.cache" />
+    <None Include="extrasCoches\extrasCoches\Properties\Settings.settings" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\.vs\PrimeraPrueba.csproj.dtbcache.json" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\App.config" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\bin\Debug\PrimeraPrueba.exe.config" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.AssemblyReference.cache" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.CoreCompileInputs.cache" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.GenerateResource.cache" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\PrimeraPrueba.csproj" />
+    <None Include="PrimeraPrueba\PrimeraPrueba\Properties\Settings.settings" />
+    <None Include="TextoFormato\TextoFormato\App.config" />
+    <None Include="TextoFormato\TextoFormato\bin\Debug\TextoFormato.exe.config" />
+    <None Include="TextoFormato\TextoFormato\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="TextoFormato\TextoFormato\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.AssemblyReference.cache" />
+    <None Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.CoreCompileInputs.cache" />
+    <None Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.GenerateResource.cache" />
+    <None Include="TextoFormato\TextoFormato\Properties\Settings.settings" />
+    <None Include="TextoFormato\TextoFormato\TextoFormato.csproj" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\App.config" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\bin\Debug\VentaCoches_v1.exe.config" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.csproj.AssemblyReference.cache" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.csproj.CoreCompileInputs.cache" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.csproj.GenerateResource.cache" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\Properties\Settings.settings" />
+    <None Include="VentaCoches_v1\VentaCoches_v1\VentaCoches_v1.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="extrasCoches\extrasCoches\Form1.cs" />
+    <Compile Include="extrasCoches\extrasCoches\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="extrasCoches\extrasCoches\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="extrasCoches\extrasCoches\Program.cs" />
+    <Compile Include="extrasCoches\extrasCoches\Properties\AssemblyInfo.cs" />
+    <Compile Include="extrasCoches\extrasCoches\Properties\Resources.Designer.cs" />
+    <Compile Include="extrasCoches\extrasCoches\Properties\Settings.Designer.cs" />
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\Form1.cs" />
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\Program.cs" />
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\Properties\AssemblyInfo.cs" />
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\Properties\Resources.Designer.cs" />
+    <Compile Include="PrimeraPrueba\PrimeraPrueba\Properties\Settings.Designer.cs" />
+    <Compile Include="TextoFormato\TextoFormato\Form1.cs" />
+    <Compile Include="TextoFormato\TextoFormato\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextoFormato\TextoFormato\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="TextoFormato\TextoFormato\Program.cs" />
+    <Compile Include="TextoFormato\TextoFormato\Properties\AssemblyInfo.cs" />
+    <Compile Include="TextoFormato\TextoFormato\Properties\Resources.Designer.cs" />
+    <Compile Include="TextoFormato\TextoFormato\Properties\Settings.Designer.cs" />
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\Form1.cs" />
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\Program.cs" />
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\Properties\AssemblyInfo.cs" />
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\Properties\Resources.Designer.cs" />
+    <Compile Include="VentaCoches_v1\VentaCoches_v1\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="extrasCoches\extrasCoches\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.Form1.resources" />
+    <EmbeddedResource Include="extrasCoches\extrasCoches\obj\Debug\extrasCoches.Properties.Resources.resources" />
+    <EmbeddedResource Include="extrasCoches\extrasCoches\Properties\Resources.resx" />
+    <EmbeddedResource Include="PrimeraPrueba\PrimeraPrueba\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.CajaIdiomas.resources" />
+    <EmbeddedResource Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.Form1.resources" />
+    <EmbeddedResource Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.Properties.Resources.resources" />
+    <EmbeddedResource Include="PrimeraPrueba\PrimeraPrueba\Properties\Resources.resx" />
+    <EmbeddedResource Include="TextoFormato\TextoFormato\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.Form1.resources" />
+    <EmbeddedResource Include="TextoFormato\TextoFormato\obj\Debug\TextoFormato.Properties.Resources.resources" />
+    <EmbeddedResource Include="TextoFormato\TextoFormato\Properties\Resources.resx" />
+    <EmbeddedResource Include="VentaCoches_v1\VentaCoches_v1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.Form1.resources" />
+    <EmbeddedResource Include="VentaCoches_v1\VentaCoches_v1\obj\Debug\VentaCoches_v1.Properties.Resources.resources" />
+    <EmbeddedResource Include="VentaCoches_v1\VentaCoches_v1\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="extrasCoches\extrasCoches\obj\Debug\TempPE\" />
+    <Folder Include="PrimeraPrueba\PrimeraPrueba\obj\Debug\TempPE\" />
+    <Folder Include="TextoFormato\TextoFormato\obj\Debug\TempPE\" />
+    <Folder Include="VentaCoches_v1\VentaCoches_v1\bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

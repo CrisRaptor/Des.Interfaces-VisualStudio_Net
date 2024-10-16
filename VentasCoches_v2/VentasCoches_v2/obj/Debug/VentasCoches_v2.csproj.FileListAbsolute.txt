@@ -1,0 +1,10 @@
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\bin\Debug\VentasCoches_v2.exe.config
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\bin\Debug\VentasCoches_v2.exe
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\bin\Debug\VentasCoches_v2.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.Form1.resources
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.exe
+C:\Users\ALUMNO2425\Documents\VS Community\VentasCoches_v2\VentasCoches_v2\obj\Debug\VentasCoches_v2.pdb

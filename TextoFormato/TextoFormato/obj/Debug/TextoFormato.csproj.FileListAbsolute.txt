@@ -1,0 +1,10 @@
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\bin\Debug\TextoFormato.exe.config
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\bin\Debug\TextoFormato.exe
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\bin\Debug\TextoFormato.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.Form1.resources
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.exe
+C:\Users\ALUMNO2425\Documents\VS Community\TextoFormato\TextoFormato\obj\Debug\TextoFormato.pdb

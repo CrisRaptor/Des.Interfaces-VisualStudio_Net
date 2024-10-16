@@ -1,0 +1,10 @@
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\bin\Debug\PrimeraPrueba.exe.config
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\bin\Debug\PrimeraPrueba.exe
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\bin\Debug\PrimeraPrueba.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.exe
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\PrimeraPrueba\PrimeraPrueba\obj\Debug\PrimeraPrueba.CajaIdiomas.resources

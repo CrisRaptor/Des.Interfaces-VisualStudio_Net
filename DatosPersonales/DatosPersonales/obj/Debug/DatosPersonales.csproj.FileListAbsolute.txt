@@ -1,0 +1,10 @@
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.Form1.resources
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\bin\Debug\DatosPersonales.exe.config
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\bin\Debug\DatosPersonales.exe
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\bin\Debug\DatosPersonales.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.exe
+C:\Users\ALUMNO2425\Documents\VS Community\DatosPersonales\DatosPersonales\obj\Debug\DatosPersonales.pdb

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEECCC5B-7EE9-43D7-84C1-F6A8AFD46249}|PrimeraPrueba\\PrimeraPrueba.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\primeraprueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEECCC5B-7EE9-43D7-84C1-F6A8AFD46249}|PrimeraPrueba\\PrimeraPrueba.csproj|solutionrelative:primeraprueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEECCC5B-7EE9-43D7-84C1-F6A8AFD46249}|PrimeraPrueba\\PrimeraPrueba.csproj|c:\\users\\alumno2425\\documents\\vs community\\primeraprueba\\primeraprueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEECCC5B-7EE9-43D7-84C1-F6A8AFD46249}|PrimeraPrueba\\PrimeraPrueba.csproj|solutionrelative:primeraprueba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEECCC5B-7EE9-43D7-84C1-F6A8AFD46249}|PrimeraPrueba\\PrimeraPrueba.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\primeraprueba\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEECCC5B-7EE9-43D7-84C1-F6A8AFD46249}|PrimeraPrueba\\PrimeraPrueba.csproj|solutionrelative:primeraprueba\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\PrimeraPrueba\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "PrimeraPrueba\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\PrimeraPrueba\\Form1.Designer.cs*",
+              "RelativeToolTip": "PrimeraPrueba\\Form1.Designer.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAawEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:18:31.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\PrimeraPrueba\\Form1.cs",
+              "RelativeDocumentMoniker": "PrimeraPrueba\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\PrimeraPrueba\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PrimeraPrueba\\Form1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:15:12.914Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\PrimeraPrueba\\Form1.cs",
+              "RelativeDocumentMoniker": "PrimeraPrueba\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\PrimeraPrueba\\PrimeraPrueba\\Form1.cs*",
+              "RelativeToolTip": "PrimeraPrueba\\Form1.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:18:23.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

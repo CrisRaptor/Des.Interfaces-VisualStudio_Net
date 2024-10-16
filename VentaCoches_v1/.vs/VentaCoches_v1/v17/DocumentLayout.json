@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC82C66-173E-4F0A-9B57-AD68EEC5EBF4}|VentaCoches_v1\\VentaCoches_v1.csproj|c:\\users\\alumno2425\\documents\\vs community\\ventacoches_v1\\ventacoches_v1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7EC82C66-173E-4F0A-9B57-AD68EEC5EBF4}|VentaCoches_v1\\VentaCoches_v1.csproj|solutionrelative:ventacoches_v1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC82C66-173E-4F0A-9B57-AD68EEC5EBF4}|VentaCoches_v1\\VentaCoches_v1.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\ventacoches_v1\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EC82C66-173E-4F0A-9B57-AD68EEC5EBF4}|VentaCoches_v1\\VentaCoches_v1.csproj|solutionrelative:ventacoches_v1\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC82C66-173E-4F0A-9B57-AD68EEC5EBF4}|VentaCoches_v1\\VentaCoches_v1.csproj|c:\\users\\alumno2425\\documents\\vs community\\ventacoches_v1\\ventacoches_v1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC82C66-173E-4F0A-9B57-AD68EEC5EBF4}|VentaCoches_v1\\VentaCoches_v1.csproj|solutionrelative:ventacoches_v1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\VentaCoches_v1\\Form1.cs",
+              "RelativeDocumentMoniker": "VentaCoches_v1\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\VentaCoches_v1\\Form1.cs*",
+              "RelativeToolTip": "VentaCoches_v1\\Form1.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:48:25.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\VentaCoches_v1\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "VentaCoches_v1\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\VentaCoches_v1\\Properties\\Resources.resx",
+              "RelativeToolTip": "VentaCoches_v1\\Properties\\Resources.resx",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-09-30T07:23:30.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\VentaCoches_v1\\Form1.cs",
+              "RelativeDocumentMoniker": "VentaCoches_v1\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentaCoches_v1\\VentaCoches_v1\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "VentaCoches_v1\\Form1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:02:48.585Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

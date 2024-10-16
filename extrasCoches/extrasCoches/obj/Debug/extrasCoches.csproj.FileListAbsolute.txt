@@ -1,0 +1,10 @@
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\bin\Debug\extrasCoches.exe.config
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\bin\Debug\extrasCoches.exe
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\bin\Debug\extrasCoches.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.Form1.resources
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.exe
+C:\Users\ALUMNO2425\Documents\VS Community\extrasCoches\extrasCoches\obj\Debug\extrasCoches.pdb
