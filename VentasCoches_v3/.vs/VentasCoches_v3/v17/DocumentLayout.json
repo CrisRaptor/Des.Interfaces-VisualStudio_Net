@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|solutionrelative:ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|solutionrelative:ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|c:\\users\\alumno2425\\documents\\vs community\\ventascoches_v3\\ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|solutionrelative:ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|c:\\users\\alumno2425\\documents\\vs community\\ventascoches_v3\\ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|solutionrelative:ventascoches_v3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C802F67D-02E8-4FEB-9900-2A544D7D399D}|VentasCoches_v3\\VentasCoches_v3.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\ventascoches_v3\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -34,25 +34,24 @@
               "RelativeToolTip": "VentasCoches_v3\\Component.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:26:53.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T06:26:53.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\VentasCoches_v3\\Form1.cs",
               "RelativeDocumentMoniker": "VentasCoches_v3\\Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\VentasCoches_v3\\Form1.cs",
               "RelativeToolTip": "VentasCoches_v3\\Form1.cs",
-              "ViewState": "AgIAAFIBAAAAAAAAAAAUwF0BAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAvwLgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T11:52:01.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\VentasCoches_v3\\VentasCoches_v3\\Form1.cs",
               "RelativeDocumentMoniker": "VentasCoches_v3\\Form1.cs",

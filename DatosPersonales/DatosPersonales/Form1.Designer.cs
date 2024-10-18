@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -38,57 +39,66 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.parentName = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.parentSurname = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.parentAddress = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.insertButton = new System.Windows.Forms.Button();
+            this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.parentPhone = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
             this.hasChildCheckBox = new System.Windows.Forms.CheckBox();
+            this.insertButton = new System.Windows.Forms.Button();
             this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
             this.childTrackBar = new System.Windows.Forms.TrackBar();
-            this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.insertChildButton = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.deleteButton = new System.Windows.Forms.Button();
+            this.parentGridView = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.deleteButton = new System.Windows.Forms.Button();
+            this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.childLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
+            this.childInsertLabel = new System.Windows.Forms.Label();
+            this.childNameLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.childName = new System.Windows.Forms.TextBox();
+            this.familyTreeView = new System.Windows.Forms.TreeView();
+            this.childButtonLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.childAddButton = new System.Windows.Forms.Button();
+            this.childDeleteButton = new System.Windows.Forms.Button();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Dirección = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Teléfono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Hijos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
-            this.treeView2 = new System.Windows.Forms.TreeView();
-            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
-            this.childLayout = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label6 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
             this.flowLayoutPanel6.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.flowLayoutPanel8.SuspendLayout();
+            this.flowLayoutPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.childTrackBar)).BeginInit();
-            this.flowLayoutPanel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.parentGridView)).BeginInit();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel16.SuspendLayout();
             this.flowLayoutPanel13.SuspendLayout();
             this.childLayout.SuspendLayout();
+            this.flowLayoutPanel17.SuspendLayout();
+            this.childNameLayout.SuspendLayout();
+            this.childButtonLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -101,8 +111,8 @@
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel5);
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel4);
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel8);
-            this.flowLayoutPanel1.Controls.Add(this.insertButton);
             this.flowLayoutPanel1.Controls.Add(this.hasChildCheckBox);
+            this.flowLayoutPanel1.Controls.Add(this.insertButton);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -115,7 +125,7 @@
             this.flowLayoutPanel2.AutoSize = true;
             this.flowLayoutPanel2.Controls.Add(this.label2);
             this.flowLayoutPanel2.Controls.Add(this.flowLayoutPanel3);
-            this.flowLayoutPanel2.Controls.Add(this.textBox1);
+            this.flowLayoutPanel2.Controls.Add(this.parentName);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(210, 58);
@@ -140,13 +150,14 @@
             this.flowLayoutPanel3.Size = new System.Drawing.Size(0, 0);
             this.flowLayoutPanel3.TabIndex = 50;
             // 
-            // textBox1
+            // parentName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(3, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(204, 27);
-            this.textBox1.TabIndex = 54;
+            this.parentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parentName.Location = new System.Drawing.Point(3, 28);
+            this.parentName.Name = "parentName";
+            this.parentName.Size = new System.Drawing.Size(204, 27);
+            this.parentName.TabIndex = 54;
+            this.parentName.TextChanged += new System.EventHandler(this.parentName_TextChanged);
             // 
             // flowLayoutPanel5
             // 
@@ -155,7 +166,7 @@
             this.flowLayoutPanel5.Controls.Add(this.flowLayoutPanel6);
             this.flowLayoutPanel5.Location = new System.Drawing.Point(3, 67);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(210, 91);
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(210, 58);
             this.flowLayoutPanel5.TabIndex = 54;
             // 
             // label3
@@ -173,39 +184,30 @@
             // 
             this.flowLayoutPanel6.AutoSize = true;
             this.flowLayoutPanel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.flowLayoutPanel6.Controls.Add(this.textBox2);
-            this.flowLayoutPanel6.Controls.Add(this.textBox5);
+            this.flowLayoutPanel6.Controls.Add(this.parentSurname);
             this.flowLayoutPanel6.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 25);
             this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(210, 66);
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(210, 33);
             this.flowLayoutPanel6.TabIndex = 50;
             // 
-            // textBox2
+            // parentSurname
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(3, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 27);
-            this.textBox2.TabIndex = 54;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(3, 36);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(204, 27);
-            this.textBox5.TabIndex = 55;
+            this.parentSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parentSurname.Location = new System.Drawing.Point(3, 3);
+            this.parentSurname.Name = "parentSurname";
+            this.parentSurname.Size = new System.Drawing.Size(204, 27);
+            this.parentSurname.TabIndex = 54;
             // 
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.AutoSize = true;
             this.flowLayoutPanel4.Controls.Add(this.label1);
             this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel7);
-            this.flowLayoutPanel4.Controls.Add(this.textBox3);
+            this.flowLayoutPanel4.Controls.Add(this.parentAddress);
             this.flowLayoutPanel4.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 164);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 131);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(210, 64);
             this.flowLayoutPanel4.TabIndex = 55;
@@ -229,23 +231,23 @@
             this.flowLayoutPanel7.Size = new System.Drawing.Size(0, 0);
             this.flowLayoutPanel7.TabIndex = 50;
             // 
-            // textBox3
+            // parentAddress
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(3, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(204, 27);
-            this.textBox3.TabIndex = 54;
+            this.parentAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parentAddress.Location = new System.Drawing.Point(3, 34);
+            this.parentAddress.Name = "parentAddress";
+            this.parentAddress.Size = new System.Drawing.Size(204, 27);
+            this.parentAddress.TabIndex = 54;
             // 
             // flowLayoutPanel8
             // 
             this.flowLayoutPanel8.AutoSize = true;
             this.flowLayoutPanel8.Controls.Add(this.label4);
             this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel9);
-            this.flowLayoutPanel8.Controls.Add(this.textBox4);
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(3, 234);
+            this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel10);
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(3, 201);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(210, 58);
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(206, 52);
             this.flowLayoutPanel8.TabIndex = 55;
             // 
             // label4
@@ -267,14 +269,62 @@
             this.flowLayoutPanel9.Size = new System.Drawing.Size(0, 0);
             this.flowLayoutPanel9.TabIndex = 50;
             // 
-            // textBox4
+            // flowLayoutPanel10
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(3, 28);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(204, 27);
-            this.textBox4.TabIndex = 54;
-            this.textBox4.Text = "+34 622 000 356";
+            this.flowLayoutPanel10.AutoSize = true;
+            this.flowLayoutPanel10.Controls.Add(this.label7);
+            this.flowLayoutPanel10.Controls.Add(this.parentPhone);
+            this.flowLayoutPanel10.Controls.Add(this.flowLayoutPanel15);
+            this.flowLayoutPanel10.Location = new System.Drawing.Point(0, 25);
+            this.flowLayoutPanel10.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel10.Name = "flowLayoutPanel10";
+            this.flowLayoutPanel10.Size = new System.Drawing.Size(206, 27);
+            this.flowLayoutPanel10.TabIndex = 55;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(0, 3);
+            this.label7.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(40, 20);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "+34";
+            // 
+            // parentPhone
+            // 
+            this.parentPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parentPhone.Location = new System.Drawing.Point(40, 0);
+            this.parentPhone.Margin = new System.Windows.Forms.Padding(0);
+            this.parentPhone.MaxLength = 9;
+            this.parentPhone.Name = "parentPhone";
+            this.parentPhone.Size = new System.Drawing.Size(160, 27);
+            this.parentPhone.TabIndex = 54;
+            this.parentPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.parentPhone_KeyPress);
+            // 
+            // flowLayoutPanel15
+            // 
+            this.flowLayoutPanel15.AutoSize = true;
+            this.flowLayoutPanel15.Location = new System.Drawing.Point(203, 3);
+            this.flowLayoutPanel15.Name = "flowLayoutPanel15";
+            this.flowLayoutPanel15.Size = new System.Drawing.Size(0, 0);
+            this.flowLayoutPanel15.TabIndex = 50;
+            // 
+            // hasChildCheckBox
+            // 
+            this.hasChildCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.hasChildCheckBox.AutoSize = true;
+            this.hasChildCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hasChildCheckBox.Location = new System.Drawing.Point(70, 259);
+            this.hasChildCheckBox.Name = "hasChildCheckBox";
+            this.hasChildCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.hasChildCheckBox.Size = new System.Drawing.Size(75, 24);
+            this.hasChildCheckBox.TabIndex = 51;
+            this.hasChildCheckBox.Text = "Hijos";
+            this.hasChildCheckBox.UseVisualStyleBackColor = true;
+            this.hasChildCheckBox.Visible = false;
+            this.hasChildCheckBox.CheckedChanged += new System.EventHandler(this.hasChildCheckBox_CheckedChanged);
             // 
             // insertButton
             // 
@@ -283,34 +333,21 @@
             this.insertButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Window;
             this.insertButton.FlatAppearance.BorderSize = 0;
             this.insertButton.Image = global::DatosPersonales.Properties.Resources.add;
-            this.insertButton.Location = new System.Drawing.Point(81, 298);
-            this.insertButton.MinimumSize = new System.Drawing.Size(54, 54);
+            this.insertButton.Location = new System.Drawing.Point(84, 289);
+            this.insertButton.MinimumSize = new System.Drawing.Size(48, 48);
             this.insertButton.Name = "insertButton";
-            this.insertButton.Size = new System.Drawing.Size(54, 54);
+            this.insertButton.Size = new System.Drawing.Size(48, 48);
             this.insertButton.TabIndex = 57;
             this.insertButton.UseVisualStyleBackColor = false;
+            this.insertButton.Visible = false;
             this.insertButton.Click += new System.EventHandler(this.insertButton_Click);
-            // 
-            // hasChildCheckBox
-            // 
-            this.hasChildCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.hasChildCheckBox.AutoSize = true;
-            this.hasChildCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hasChildCheckBox.Location = new System.Drawing.Point(70, 358);
-            this.hasChildCheckBox.Name = "hasChildCheckBox";
-            this.hasChildCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.hasChildCheckBox.Size = new System.Drawing.Size(75, 24);
-            this.hasChildCheckBox.TabIndex = 51;
-            this.hasChildCheckBox.Text = "Hijos";
-            this.hasChildCheckBox.UseVisualStyleBackColor = true;
-            this.hasChildCheckBox.CheckedChanged += new System.EventHandler(this.hasChildCheckBox_CheckedChanged);
             // 
             // flowLayoutPanel14
             // 
             this.flowLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel14.AutoSize = true;
             this.flowLayoutPanel14.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel14.Location = new System.Drawing.Point(237, 0);
+            this.flowLayoutPanel14.Location = new System.Drawing.Point(208, 0);
             this.flowLayoutPanel14.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel14.Name = "flowLayoutPanel14";
             this.flowLayoutPanel14.Size = new System.Drawing.Size(0, 0);
@@ -320,75 +357,28 @@
             // 
             this.childTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.childTrackBar.AutoSize = false;
-            this.childTrackBar.Location = new System.Drawing.Point(0, 6);
+            this.childTrackBar.LargeChange = 1;
+            this.childTrackBar.Location = new System.Drawing.Point(0, 0);
             this.childTrackBar.Margin = new System.Windows.Forms.Padding(0);
             this.childTrackBar.Maximum = 15;
+            this.childTrackBar.Minimum = 1;
+            this.childTrackBar.MinimumSize = new System.Drawing.Size(196, 0);
             this.childTrackBar.Name = "childTrackBar";
-            this.childTrackBar.Size = new System.Drawing.Size(196, 44);
+            this.childTrackBar.Size = new System.Drawing.Size(196, 36);
             this.childTrackBar.TabIndex = 33;
-            this.childTrackBar.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.childTrackBar.Value = 1;
+            this.childTrackBar.ValueChanged += new System.EventHandler(this.childTrackBar_ValueChanged);
             // 
-            // flowLayoutPanel11
+            // parentGridView
             // 
-            this.flowLayoutPanel11.AutoSize = true;
-            this.flowLayoutPanel11.Controls.Add(this.label5);
-            this.flowLayoutPanel11.Controls.Add(this.flowLayoutPanel12);
-            this.flowLayoutPanel11.Controls.Add(this.textBox6);
-            this.flowLayoutPanel11.Location = new System.Drawing.Point(3, 85);
-            this.flowLayoutPanel11.Name = "flowLayoutPanel11";
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(190, 33);
-            this.flowLayoutPanel11.TabIndex = 49;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(0, 5);
-            this.label5.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Nombre";
-            // 
-            // flowLayoutPanel12
-            // 
-            this.flowLayoutPanel12.AutoSize = true;
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(77, 3);
-            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(0, 0);
-            this.flowLayoutPanel12.TabIndex = 50;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(83, 3);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(104, 27);
-            this.textBox6.TabIndex = 54;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // insertChildButton
-            // 
-            this.insertChildButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.insertChildButton.AutoSize = true;
-            this.insertChildButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.insertChildButton.Location = new System.Drawing.Point(55, 53);
-            this.insertChildButton.Name = "insertChildButton";
-            this.insertChildButton.Size = new System.Drawing.Size(85, 26);
-            this.insertChildButton.TabIndex = 50;
-            this.insertChildButton.Text = "Insertar hijo";
-            this.insertChildButton.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.parentGridView.AllowUserToAddRows = false;
+            this.parentGridView.AllowUserToDeleteRows = false;
+            this.parentGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.parentGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.parentGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.parentGridView.BackgroundColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -396,36 +386,36 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.parentGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.parentGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.parentGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id,
             this.Nombre,
             this.Apellidos,
             this.Dirección,
             this.Teléfono,
             this.Hijos});
-            this.dataGridView2.GridColor = System.Drawing.SystemColors.Window;
-            this.dataGridView2.Location = new System.Drawing.Point(2, 50);
-            this.dataGridView2.MinimumSize = new System.Drawing.Size(440, 150);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(517, 150);
-            this.dataGridView2.TabIndex = 60;
-            // 
-            // deleteButton
-            // 
-            this.deleteButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.deleteButton.AutoSize = true;
-            this.deleteButton.Image = global::DatosPersonales.Properties.Resources.remove;
-            this.deleteButton.Location = new System.Drawing.Point(474, 0);
-            this.deleteButton.Margin = new System.Windows.Forms.Padding(0);
-            this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(48, 47);
-            this.deleteButton.TabIndex = 59;
-            this.deleteButton.UseVisualStyleBackColor = true;
-            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.parentGridView.DefaultCellStyle = dataGridViewCellStyle7;
+            this.parentGridView.GridColor = System.Drawing.SystemColors.Window;
+            this.parentGridView.Location = new System.Drawing.Point(2, 50);
+            this.parentGridView.MinimumSize = new System.Drawing.Size(440, 150);
+            this.parentGridView.MultiSelect = false;
+            this.parentGridView.Name = "parentGridView";
+            this.parentGridView.ReadOnly = true;
+            this.parentGridView.RowHeadersVisible = false;
+            this.parentGridView.RowHeadersWidth = 51;
+            this.parentGridView.RowTemplate.Height = 24;
+            this.parentGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.parentGridView.Size = new System.Drawing.Size(546, 150);
+            this.parentGridView.TabIndex = 60;
+            this.parentGridView.SelectionChanged += new System.EventHandler(this.parentGridView_SelectionChanged);
             // 
             // panel1
             // 
@@ -434,12 +424,220 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.deleteButton);
-            this.panel1.Controls.Add(this.dataGridView2);
+            this.panel1.Controls.Add(this.parentGridView);
             this.panel1.Location = new System.Drawing.Point(220, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(524, 560);
+            this.panel1.Size = new System.Drawing.Size(553, 560);
             this.panel1.TabIndex = 61;
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.deleteButton.AutoSize = true;
+            this.deleteButton.Enabled = false;
+            this.deleteButton.Image = global::DatosPersonales.Properties.Resources.remove;
+            this.deleteButton.Location = new System.Drawing.Point(503, 0);
+            this.deleteButton.Margin = new System.Windows.Forms.Padding(0);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(48, 47);
+            this.deleteButton.TabIndex = 59;
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
+            // flowLayoutPanel25
+            // 
+            this.flowLayoutPanel25.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.flowLayoutPanel25.AutoSize = true;
+            this.flowLayoutPanel25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.flowLayoutPanel25.Location = new System.Drawing.Point(7, 3);
+            this.flowLayoutPanel25.Name = "flowLayoutPanel25";
+            this.flowLayoutPanel25.Size = new System.Drawing.Size(0, 0);
+            this.flowLayoutPanel25.TabIndex = 61;
+            // 
+            // flowLayoutPanel16
+            // 
+            this.flowLayoutPanel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.flowLayoutPanel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel16.Controls.Add(this.flowLayoutPanel14);
+            this.flowLayoutPanel16.Controls.Add(this.flowLayoutPanel13);
+            this.flowLayoutPanel16.Controls.Add(this.flowLayoutPanel25);
+            this.flowLayoutPanel16.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.flowLayoutPanel16.Location = new System.Drawing.Point(773, 0);
+            this.flowLayoutPanel16.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel16.Name = "flowLayoutPanel16";
+            this.flowLayoutPanel16.Size = new System.Drawing.Size(210, 560);
+            this.flowLayoutPanel16.TabIndex = 62;
+            // 
+            // flowLayoutPanel13
+            // 
+            this.flowLayoutPanel13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel13.AutoSize = true;
+            this.flowLayoutPanel13.Controls.Add(this.label6);
+            this.flowLayoutPanel13.Controls.Add(this.childLayout);
+            this.flowLayoutPanel13.Controls.Add(this.childNameLayout);
+            this.flowLayoutPanel13.Controls.Add(this.familyTreeView);
+            this.flowLayoutPanel13.Controls.Add(this.childButtonLayout);
+            this.flowLayoutPanel13.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel13.Location = new System.Drawing.Point(10, 0);
+            this.flowLayoutPanel13.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
+            this.flowLayoutPanel13.Size = new System.Drawing.Size(198, 428);
+            this.flowLayoutPanel13.TabIndex = 57;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(64, 5);
+            this.label6.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(70, 20);
+            this.label6.TabIndex = 55;
+            this.label6.Text = "Familia";
+            // 
+            // childLayout
+            // 
+            this.childLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.childLayout.AutoSize = true;
+            this.childLayout.Controls.Add(this.childTrackBar);
+            this.childLayout.Controls.Add(this.flowLayoutPanel17);
+            this.childLayout.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.childLayout.Location = new System.Drawing.Point(2, 25);
+            this.childLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.childLayout.Name = "childLayout";
+            this.childLayout.Size = new System.Drawing.Size(196, 58);
+            this.childLayout.TabIndex = 58;
+            this.childLayout.Visible = false;
+            // 
+            // flowLayoutPanel17
+            // 
+            this.flowLayoutPanel17.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.flowLayoutPanel17.AutoSize = true;
+            this.flowLayoutPanel17.Controls.Add(this.flowLayoutPanel18);
+            this.flowLayoutPanel17.Controls.Add(this.childInsertLabel);
+            this.flowLayoutPanel17.Location = new System.Drawing.Point(76, 39);
+            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
+            this.flowLayoutPanel17.Size = new System.Drawing.Size(44, 16);
+            this.flowLayoutPanel17.TabIndex = 55;
+            // 
+            // flowLayoutPanel18
+            // 
+            this.flowLayoutPanel18.AutoSize = true;
+            this.flowLayoutPanel18.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel18.Name = "flowLayoutPanel18";
+            this.flowLayoutPanel18.Size = new System.Drawing.Size(0, 0);
+            this.flowLayoutPanel18.TabIndex = 50;
+            // 
+            // childInsertLabel
+            // 
+            this.childInsertLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.childInsertLabel.AutoSize = true;
+            this.childInsertLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.childInsertLabel.Location = new System.Drawing.Point(6, 0);
+            this.childInsertLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.childInsertLabel.Name = "childInsertLabel";
+            this.childInsertLabel.Size = new System.Drawing.Size(38, 16);
+            this.childInsertLabel.TabIndex = 59;
+            this.childInsertLabel.Text = "1 hijo";
+            // 
+            // childNameLayout
+            // 
+            this.childNameLayout.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.childNameLayout.AutoSize = true;
+            this.childNameLayout.Controls.Add(this.label8);
+            this.childNameLayout.Controls.Add(this.childName);
+            this.childNameLayout.Location = new System.Drawing.Point(7, 86);
+            this.childNameLayout.Name = "childNameLayout";
+            this.childNameLayout.Size = new System.Drawing.Size(184, 33);
+            this.childNameLayout.TabIndex = 55;
+            this.childNameLayout.Visible = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(0, 5);
+            this.label8.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(74, 20);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Nombre";
+            // 
+            // childName
+            // 
+            this.childName.Enabled = false;
+            this.childName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.childName.Location = new System.Drawing.Point(77, 3);
+            this.childName.Name = "childName";
+            this.childName.Size = new System.Drawing.Size(104, 27);
+            this.childName.TabIndex = 54;
+            this.childName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.childName.KeyUp += new System.Windows.Forms.KeyEventHandler(this.childName_KeyUp);
+            // 
+            // familyTreeView
+            // 
+            this.familyTreeView.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.familyTreeView.HideSelection = false;
+            this.familyTreeView.Location = new System.Drawing.Point(0, 122);
+            this.familyTreeView.Margin = new System.Windows.Forms.Padding(0);
+            this.familyTreeView.Name = "familyTreeView";
+            this.familyTreeView.Size = new System.Drawing.Size(198, 252);
+            this.familyTreeView.TabIndex = 2;
+            this.familyTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.familyTreeView_AfterSelect);
+            // 
+            // childButtonLayout
+            // 
+            this.childButtonLayout.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.childButtonLayout.AutoSize = true;
+            this.childButtonLayout.Controls.Add(this.childAddButton);
+            this.childButtonLayout.Controls.Add(this.childDeleteButton);
+            this.childButtonLayout.Location = new System.Drawing.Point(45, 377);
+            this.childButtonLayout.Name = "childButtonLayout";
+            this.childButtonLayout.Size = new System.Drawing.Size(108, 48);
+            this.childButtonLayout.TabIndex = 56;
+            // 
+            // childAddButton
+            // 
+            this.childAddButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.childAddButton.BackColor = System.Drawing.Color.Transparent;
+            this.childAddButton.Enabled = false;
+            this.childAddButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Window;
+            this.childAddButton.FlatAppearance.BorderSize = 0;
+            this.childAddButton.Image = global::DatosPersonales.Properties.Resources.add;
+            this.childAddButton.Location = new System.Drawing.Point(0, 0);
+            this.childAddButton.Margin = new System.Windows.Forms.Padding(0, 0, 6, 0);
+            this.childAddButton.Name = "childAddButton";
+            this.childAddButton.Padding = new System.Windows.Forms.Padding(3);
+            this.childAddButton.Size = new System.Drawing.Size(48, 48);
+            this.childAddButton.TabIndex = 58;
+            this.childAddButton.UseVisualStyleBackColor = false;
+            this.childAddButton.Click += new System.EventHandler(this.childAddButton_Click);
+            // 
+            // childDeleteButton
+            // 
+            this.childDeleteButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.childDeleteButton.AutoSize = true;
+            this.childDeleteButton.Enabled = false;
+            this.childDeleteButton.Image = global::DatosPersonales.Properties.Resources.remove;
+            this.childDeleteButton.Location = new System.Drawing.Point(60, 0);
+            this.childDeleteButton.Margin = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.childDeleteButton.Name = "childDeleteButton";
+            this.childDeleteButton.Size = new System.Drawing.Size(48, 48);
+            this.childDeleteButton.TabIndex = 61;
+            this.childDeleteButton.UseVisualStyleBackColor = true;
+            this.childDeleteButton.Click += new System.EventHandler(this.childDeleteButton_Click);
+            // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Visible = false;
             // 
             // Nombre
             // 
@@ -486,90 +684,6 @@
             this.Hijos.Name = "Hijos";
             this.Hijos.ReadOnly = true;
             // 
-            // flowLayoutPanel25
-            // 
-            this.flowLayoutPanel25.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.flowLayoutPanel25.AutoSize = true;
-            this.flowLayoutPanel25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.flowLayoutPanel25.Location = new System.Drawing.Point(38, 3);
-            this.flowLayoutPanel25.Name = "flowLayoutPanel25";
-            this.flowLayoutPanel25.Size = new System.Drawing.Size(0, 0);
-            this.flowLayoutPanel25.TabIndex = 61;
-            // 
-            // flowLayoutPanel16
-            // 
-            this.flowLayoutPanel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.flowLayoutPanel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel16.Controls.Add(this.flowLayoutPanel14);
-            this.flowLayoutPanel16.Controls.Add(this.flowLayoutPanel13);
-            this.flowLayoutPanel16.Controls.Add(this.flowLayoutPanel25);
-            this.flowLayoutPanel16.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel16.Location = new System.Drawing.Point(744, 0);
-            this.flowLayoutPanel16.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel16.Name = "flowLayoutPanel16";
-            this.flowLayoutPanel16.Size = new System.Drawing.Size(239, 560);
-            this.flowLayoutPanel16.TabIndex = 62;
-            // 
-            // treeView2
-            // 
-            this.treeView2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.treeView2.Location = new System.Drawing.Point(0, 146);
-            this.treeView2.Margin = new System.Windows.Forms.Padding(0);
-            this.treeView2.Name = "treeView2";
-            this.treeView2.Size = new System.Drawing.Size(196, 252);
-            this.treeView2.TabIndex = 2;
-            // 
-            // flowLayoutPanel13
-            // 
-            this.flowLayoutPanel13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel13.AutoSize = true;
-            this.flowLayoutPanel13.Controls.Add(this.label6);
-            this.flowLayoutPanel13.Controls.Add(this.childLayout);
-            this.flowLayoutPanel13.Controls.Add(this.treeView2);
-            this.flowLayoutPanel13.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel13.Location = new System.Drawing.Point(41, 0);
-            this.flowLayoutPanel13.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
-            this.flowLayoutPanel13.Size = new System.Drawing.Size(196, 398);
-            this.flowLayoutPanel13.TabIndex = 57;
-            // 
-            // childLayout
-            // 
-            this.childLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.childLayout.AutoSize = true;
-            this.childLayout.Controls.Add(this.flowLayoutPanel19);
-            this.childLayout.Controls.Add(this.childTrackBar);
-            this.childLayout.Controls.Add(this.insertChildButton);
-            this.childLayout.Controls.Add(this.flowLayoutPanel11);
-            this.childLayout.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.childLayout.Location = new System.Drawing.Point(0, 25);
-            this.childLayout.Margin = new System.Windows.Forms.Padding(0);
-            this.childLayout.Name = "childLayout";
-            this.childLayout.Size = new System.Drawing.Size(196, 121);
-            this.childLayout.TabIndex = 58;
-            this.childLayout.Visible = false;
-            // 
-            // flowLayoutPanel19
-            // 
-            this.flowLayoutPanel19.AutoSize = true;
-            this.flowLayoutPanel19.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel19.Name = "flowLayoutPanel19";
-            this.flowLayoutPanel19.Size = new System.Drawing.Size(0, 0);
-            this.flowLayoutPanel19.TabIndex = 50;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(0, 5);
-            this.label6.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 20);
-            this.label6.TabIndex = 55;
-            this.label6.Text = "Familia";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -580,7 +694,7 @@
             this.Controls.Add(this.flowLayoutPanel16);
             this.MinimumSize = new System.Drawing.Size(1000, 600);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Gestor de Datos Personales";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
@@ -593,10 +707,10 @@
             this.flowLayoutPanel4.PerformLayout();
             this.flowLayoutPanel8.ResumeLayout(false);
             this.flowLayoutPanel8.PerformLayout();
+            this.flowLayoutPanel10.ResumeLayout(false);
+            this.flowLayoutPanel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.childTrackBar)).EndInit();
-            this.flowLayoutPanel11.ResumeLayout(false);
-            this.flowLayoutPanel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.parentGridView)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.flowLayoutPanel16.ResumeLayout(false);
@@ -605,6 +719,12 @@
             this.flowLayoutPanel13.PerformLayout();
             this.childLayout.ResumeLayout(false);
             this.childLayout.PerformLayout();
+            this.flowLayoutPanel17.ResumeLayout(false);
+            this.flowLayoutPanel17.PerformLayout();
+            this.childNameLayout.ResumeLayout(false);
+            this.childNameLayout.PerformLayout();
+            this.childButtonLayout.ResumeLayout(false);
+            this.childButtonLayout.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -614,44 +734,50 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox parentName;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox parentSurname;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel7;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox parentAddress;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button insertChildButton;
+        private System.Windows.Forms.TextBox parentPhone;
         private System.Windows.Forms.CheckBox hasChildCheckBox;
         private System.Windows.Forms.TrackBar childTrackBar;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button insertButton;
         private System.Windows.Forms.Button deleteButton;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView parentGridView;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel25;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
+        private System.Windows.Forms.FlowLayoutPanel childLayout;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
+        private System.Windows.Forms.TreeView familyTreeView;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel17;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel18;
+        private System.Windows.Forms.Label childInsertLabel;
+        private System.Windows.Forms.FlowLayoutPanel childNameLayout;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox childName;
+        private System.Windows.Forms.Button childAddButton;
+        private System.Windows.Forms.Button childDeleteButton;
+        private System.Windows.Forms.FlowLayoutPanel childButtonLayout;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Apellidos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Dirección;
         private System.Windows.Forms.DataGridViewTextBoxColumn Teléfono;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hijos;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel25;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
-        private System.Windows.Forms.FlowLayoutPanel childLayout;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel19;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
-        private System.Windows.Forms.TreeView treeView2;
-        private System.Windows.Forms.Label label6;
     }
 }
 
