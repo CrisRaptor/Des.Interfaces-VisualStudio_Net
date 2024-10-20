@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace DatosPersonales
 {
     public partial class Form1 : Form
     {
-        List<Parent> parents = new List<Parent> { };
         public Form1()
         {
             InitializeComponent();
@@ -44,6 +44,10 @@ namespace DatosPersonales
         private void hasChildCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             childLayout.Visible = hasChildCheckBox.Checked;
+            if (parentGridView.SelectedRows.Count == 0)
+            {
+                childTrackBar.Enabled = true;
+            }
         }
 
         //Insert Button
@@ -56,32 +60,39 @@ namespace DatosPersonales
             {
                 if (parentName.Text != "")
                 {
-                    parent = new Parent(parentName.Text, parentSurname.Text, parentAddress.Text, "+34 " + parentPhone.Text, childTrackBar.Value);
-                    if (!parents.Contains(parent))
+                    int index = 0;
+                    Boolean nameExists = false;
+                    Console.WriteLine(nameExists.ToString());
+                    while (!nameExists && index < parentGridView.Rows.Count)
                     {
-                        parents.Add(parent);
-                        parentGridView.Rows.Add(parent.id, parent.name, parent.apellidos, parent.address, "+34 " + parent.phone,parent.childCount);
+                        nameExists = parentGridView.Rows[index].Cells[1].Value.Equals(parentName.Text);
+                        index++;
+                        Console.WriteLine(nameExists.ToString());
+                    }
+                    if (!nameExists)
+                    {
+                        int parentChildCount = (hasChildCheckBox.Checked) ? childTrackBar.Value : 0;
+                        parent = new Parent(parentName.Text, parentSurname.Text, parentAddress.Text, "+34 " + parentPhone.Text, parentChildCount);
+
+                        parentGridView.Rows.Add(parent.id, parent.name, parent.apellidos, parent.address, parent.phone, parent.childCount);
                         //Insert on family TreeView
-                        TreeNode parentNode = new TreeNode(parent.name);
-                        familyTreeView.Nodes.Add(parentNode);
+
+                        familyTreeView.Nodes.Add(parent.id.ToString(), parent.name);
+                        TreeNode parentNode = familyTreeView.Nodes[parent.id.ToString()];
                         if (hasChildCheckBox.Checked)
                         {
                             foreach (string child in parent.childs)
                             {
-                                parentNode.Nodes.Add(parent.id.ToString(), child);
+                                familyTreeView.Nodes[parent.id.ToString()].Nodes.Add(parent.id.ToString() + ".", child);
                             }
                             childNameLayout.Visible = true;
                         }
                         parentNode.ExpandAll();
-                        insertButton.Enabled = false;
                     }
-                    else
-                    {
-                        /*Future else-errorprovider*/
-                    }
+                    
+                    
                     insertButton.Enabled = false;
                     
-
                     //Parent Manager Reset
                     parentName.Clear();
                     parentSurname.Clear();
@@ -89,16 +100,23 @@ namespace DatosPersonales
                     parentPhone.Clear();
                     
                 }
-                
+                else
+                {
+                    /*Future else-errorprovider*/
+                }
+                insertButton.Enabled = false;
+
             }
             else
             {
-                TreeNode[] parentNode = familyTreeView.Nodes.Find(parentGridView.SelectedRows[0].Cells[0].ToString(), true);
+                familyTreeView.Nodes.Find(parentGridView.SelectedRows[0].Cells[0].Value.ToString(), false).First().Text = parentName.Text;
+
                 parentGridView.SelectedRows[0].Cells[1].Value = parentName.Text;
                 parentGridView.SelectedRows[0].Cells[2].Value = parentSurname.Text;
                 parentGridView.SelectedRows[0].Cells[3].Value = parentAddress.Text;
                 parentGridView.SelectedRows[0].Cells[4].Value = "+34 " + parentPhone.Text;
                 parentGridView.SelectedRows[0].Cells[5].Value = childTrackBar.Value;
+                
             }
             /*Future else-errorprovider*/
             parentGridView.ClearSelection();
@@ -114,6 +132,7 @@ namespace DatosPersonales
             foreach (DataGridViewRow row in parentGridView.SelectedRows)
             {
                 parentGridView.Rows.Remove(row);
+                familyTreeView.Nodes.Find(row.Cells[0].Value.ToString(), false).First().Remove();
             };
             parentGridView.ClearSelection();
             deleteButton.Enabled = false;
@@ -124,19 +143,28 @@ namespace DatosPersonales
         private void parentGridView_SelectionChanged(object sender, EventArgs e)
         {
             deleteButton.Enabled = true;
+            
             if (parentGridView.SelectedRows.Count > 0)
             {
-                parentName.Text = parentGridView.SelectedRows[0].Cells[0].Value.ToString();
-                parentSurname.Text = parentGridView.SelectedRows[0].Cells[1].Value.ToString();
-                parentAddress.Text = parentGridView.SelectedRows[0].Cells[2].Value.ToString();
-                parentPhone.Text = parentGridView.SelectedRows[0].Cells[3].Value.ToString().Substring(4);
-                int childs = Convert.ToInt16(parentGridView.SelectedRows[0].Cells[4].Value.ToString());
+                //Show parent info on Parent Panel
+                parentName.Text = parentGridView.SelectedRows[0].Cells[1].Value.ToString();
+                parentSurname.Text = parentGridView.SelectedRows[0].Cells[2].Value.ToString();
+                parentAddress.Text = parentGridView.SelectedRows[0].Cells[3].Value.ToString();
+                parentPhone.Text = parentGridView.SelectedRows[0].Cells[4].Value.ToString().Substring(4);
+                int childs = Convert.ToInt16(parentGridView.SelectedRows[0].Cells[5].Value.ToString());
                 if (childs > 0)
                 {
                     hasChildCheckBox.Checked = true;
                     childTrackBar.Value = childs;
+                    childTrackBar.Enabled = false;
                 }
-                
+            } else
+            {
+                //Parent Manager Reset
+                parentName.Clear();
+                parentSurname.Clear();
+                parentAddress.Clear();
+                parentPhone.Clear();
             }
         }
 
@@ -158,7 +186,6 @@ namespace DatosPersonales
             {
                 //Edit Family Tree View Selected Node
                 familyTreeView.SelectedNode.Text = childName.Text;
-                familyTreeView.SelectedNode.ForeColor = familyTreeView.Nodes[0].ForeColor;
                 //Reset
                 familyTreeView.SelectedNode = null;
                 childName.Text = null;
@@ -167,27 +194,40 @@ namespace DatosPersonales
         }
 
         //Family TreeView
+        //Remove selection format of the child selected before
+        private void familyTreeView_BeforeSelect(object sender, TreeViewCancelEventArgs e)
+        {
+            if (familyTreeView.SelectedNode != null)
+            {
+                //if (familyTreeView.SelectedNode.Parent != null)
+                {
+                    familyTreeView.SelectedNode.Text = familyTreeView.SelectedNode.Text.Substring(2, familyTreeView.SelectedNode.Text.Length - 4);
+                }
+            }
+        }
+
         //Select child enables ChildName textBox
         private void familyTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            
-            if (familyTreeView.SelectedNode.Nodes.Count == 0)
+            if (familyTreeView.SelectedNode.Parent != null)
             {
-                familyTreeView.SelectedNode.ForeColor = Color.Red;
                 childName.Enabled = true;
                 String childText = familyTreeView.SelectedNode.Text;
                 childName.Text = (childText == "¿?") ? "" : childText;
                 childDeleteButton.Enabled = true;
                 childAddButton.Enabled = false;
+                
             }
-            else
+            else 
             {
+                int rowIndex = parentGridView.Rows.Cast<DataGridViewRow>().Where(r => r.Cells[1].Value.ToString().Equals(familyTreeView.SelectedNode.Text)).First().Index;
+                parentGridView.Rows[rowIndex].Selected = true;
                 childName.Text = null;
                 childName.Enabled = false;
                 childDeleteButton.Enabled = false;
                 childAddButton.Enabled = true;
             }
-            
+            familyTreeView.SelectedNode.Text = "[ " + familyTreeView.SelectedNode.Text + " ]";
         }
 
         //Child Delete Button
@@ -197,8 +237,20 @@ namespace DatosPersonales
             if (familyTreeView.SelectedNode.Nodes.Count == 0)
             {
                 familyTreeView.Nodes.Remove(familyTreeView.SelectedNode);
+                
+                if (parentGridView.SelectedRows.Count > 0)
+                {
+                    if (childTrackBar.Value == 1)
+                    {
+                        hasChildCheckBox.Checked = false;
+                        parentGridView.SelectedRows[0].Cells[5].Value = 0;
+                    } else
+                    {
+                        childTrackBar.Value--;
+                        parentGridView.SelectedRows[0].Cells[5].Value = childTrackBar.Value;
+                    }
+                }
             }
-            familyTreeView.SelectedNode = null;
             childName.Text = null;
         }
 
@@ -207,7 +259,16 @@ namespace DatosPersonales
         private void childAddButton_Click(object sender, EventArgs e)
         {                
             familyTreeView.SelectedNode.Nodes.Add("¿?");
-            familyTreeView.SelectedNode.ExpandAll(); 
+            familyTreeView.SelectedNode.ExpandAll();
+            if ((int)parentGridView.SelectedRows[0].Cells[5].Value == 0)
+            {
+                hasChildCheckBox.Checked = true;
+            }
+            if (parentGridView.SelectedRows.Count > 0)
+            {
+                parentGridView.SelectedRows[0].Cells[5].Value = ((int)parentGridView.SelectedRows[0].Cells[5].Value) + 1;
+                childTrackBar.Value = (int)parentGridView.SelectedRows[0].Cells[5].Value;
+            }
         }
     }
 }
