@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|c:\\users\\alumno2425\\source\\repos\\pizzeria\\pizzeria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\postre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\postre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\pizzeria\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CE1963-D627-46CD-B21A-5704329B3177}|Pizzeria\\Pizzeria.csproj|solutionrelative:pizzeria\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gestor.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Gestor.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Gestor.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Gestor.cs",
+              "RelativeToolTip": "Pizzeria\\Gestor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:44:39.566Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Form1.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Form1.cs",
+              "RelativeToolTip": "Pizzeria\\Form1.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAUwL4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:11:15.926Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Form1.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pizzeria\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:45:06.235Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Postre.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Postre.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Postre.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Postre.cs",
+              "RelativeToolTip": "Pizzeria\\Postre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:05:22.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bebida.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Bebida.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Bebida.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Bebida.cs",
+              "RelativeToolTip": "Pizzeria\\Bebida.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:00:15.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Pizza.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Pizza.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Pizza.cs",
+              "RelativeToolTip": "Pizzeria\\Pizza.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:51:38.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Producto.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Producto.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Producto.cs",
+              "RelativeToolTip": "Pizzeria\\Producto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:47:28.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Pedido.cs",
+              "RelativeDocumentMoniker": "Pizzeria\\Pedido.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\source\\repos\\Pizzeria\\Pizzeria\\Pedido.cs",
+              "RelativeToolTip": "Pizzeria\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:47:10.867Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

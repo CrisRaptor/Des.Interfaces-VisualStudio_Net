@@ -1,0 +1,9 @@
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.Properties.Resources.resources
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.Termometro.resources
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\bin\Debug\Clase1_Controles.dll
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\bin\Debug\Clase1_Controles.pdb
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.dll
+C:\Users\ALUMNO2425\source\repos\Clase1_Controles\Clase1_Controles\obj\Debug\Clase1_Controles.pdb
