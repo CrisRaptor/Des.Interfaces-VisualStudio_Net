@@ -39,21 +39,22 @@
             // 
             this.temperatura.LargeChange = 1;
             this.temperatura.Location = new System.Drawing.Point(0, 0);
+            this.temperatura.Margin = new System.Windows.Forms.Padding(0);
             this.temperatura.Maximum = 5;
             this.temperatura.Minimum = 1;
             this.temperatura.Name = "temperatura";
             this.temperatura.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.temperatura.Size = new System.Drawing.Size(56, 230);
+            this.temperatura.Size = new System.Drawing.Size(56, 100);
             this.temperatura.TabIndex = 0;
             this.temperatura.Value = 1;
             this.temperatura.ValueChanged += new System.EventHandler(this.temperatura_ValueChanged);
             // 
             // imagen
             // 
-            this.imagen.Image = global::Clase1_Controles.Properties.Resources.normal;
+            this.imagen.Image = global::Clase1_Controles.Properties.Resources.hielo;
             this.imagen.Location = new System.Drawing.Point(50, 0);
             this.imagen.Name = "imagen";
-            this.imagen.Size = new System.Drawing.Size(230, 230);
+            this.imagen.Size = new System.Drawing.Size(100, 100);
             this.imagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imagen.TabIndex = 1;
             this.imagen.TabStop = false;
@@ -71,7 +72,7 @@
             this.Controls.Add(this.imagen);
             this.Controls.Add(this.temperatura);
             this.Name = "Termometro";
-            this.Size = new System.Drawing.Size(283, 233);
+            this.Size = new System.Drawing.Size(153, 103);
             ((System.ComponentModel.ISupportInitialize)(this.temperatura)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagen)).EndInit();
             this.ResumeLayout(false);

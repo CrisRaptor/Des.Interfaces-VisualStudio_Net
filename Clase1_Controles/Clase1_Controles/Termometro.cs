@@ -12,10 +12,22 @@ namespace Clase1_Controles
 {
     public partial class Termometro: UserControl
     {
+        public int Cachopo 
+            {
+                get{
+                    return temperatura.Value;
+                }
+                set
+                {
+                    temperatura.Value = (value>temperatura.Maximum)?temperatura.Maximum:(value < temperatura.Minimum)?temperatura.Minimum:value;
+                }
+            }
+            
+        
+
         public Termometro()
         {
             InitializeComponent();
-            temperatura.Value = 3;
         }
 
         private void temperatura_ValueChanged(object sender, EventArgs e)

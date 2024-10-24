@@ -1,0 +1,13 @@
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\bin\Debug\Temperaturas.exe.config
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\bin\Debug\Temperaturas.exe
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\bin\Debug\Temperaturas.pdb
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\bin\Debug\Clase1_Controles.dll
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\bin\Debug\Clase1_Controles.pdb
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.Form1.resources
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.Properties.Resources.resources
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperat.499E06E5.Up2Date
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.exe
+C:\Users\ALUMNO2425\source\repos\Temperaturas\Temperaturas\obj\Debug\Temperaturas.pdb
