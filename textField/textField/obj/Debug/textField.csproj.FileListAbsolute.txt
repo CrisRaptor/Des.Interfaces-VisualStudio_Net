@@ -1,0 +1,8 @@
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\bin\Debug\textField.dll
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\bin\Debug\textField.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\obj\Debug\textField.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\obj\Debug\textField.textField.resources
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\obj\Debug\textField.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\obj\Debug\textField.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\obj\Debug\textField.dll
+C:\Users\ALUMNO2425\Documents\VS Community\textField\textField\obj\Debug\textField.pdb
