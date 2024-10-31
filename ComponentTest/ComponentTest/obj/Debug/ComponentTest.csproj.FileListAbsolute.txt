@@ -1,0 +1,17 @@
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\ComponentTest.exe.config
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\ComponentTest.exe
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\ComponentTest.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\textField.dll
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\textField.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.Form1.resources
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\Componen.C5BDE5F2.Up2Date
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.exe
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\obj\Debug\ComponentTest.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\Clase1_Controles.dll
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\Clase1_Controles.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\pictureText.dll
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\pictureText.pdb

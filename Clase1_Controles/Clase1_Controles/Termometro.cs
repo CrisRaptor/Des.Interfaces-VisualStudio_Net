@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Clase1_Controles
@@ -32,27 +26,38 @@ namespace Clase1_Controles
 
         private void temperatura_ValueChanged(object sender, EventArgs e)
         {
+
             switch (temperatura.Value)
             {
-                case 1:
+                case int n when (n <= (temperatura.Maximum * 0.2)):
                     imagen.Image = Properties.Resources.hielo;
                     break;
-                case 2:
+                case int n when (n <= (temperatura.Maximum * 0.4)):
                     imagen.Image = Properties.Resources.copo_de_nieve;
                     break;
-                case 3:
+                case int n when (n <= (temperatura.Maximum * 0.6)):
                     imagen.Image = Properties.Resources.normal;
                     break;
-                case 4:
+                case int n when (n <= (temperatura.Maximum * 0.8)):
                     imagen.Image = Properties.Resources.soleado;
                     break;
-                case 5:
+                case int n when (n <= (temperatura.Maximum * 1)):
                     imagen.Image = Properties.Resources.flama_de_fuego;
                     break;
                 default:
                     imagen.Image = null;
                     break;
             }
+            if (this.ValueChange != null)
+            {
+                ValueChange(this, new EventArgs());
+            }
+
         }
+
+        [Browsable(true)]
+        [Category("Eventos internos")]
+        [Description("Se activa cuando la temperatura cambiar")]
+        public event EventHandler ValueChange;
     }
 }

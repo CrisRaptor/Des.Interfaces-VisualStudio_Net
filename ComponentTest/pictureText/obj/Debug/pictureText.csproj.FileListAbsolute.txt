@@ -1,0 +1,9 @@
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\bin\Debug\pictureText.dll
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\bin\Debug\pictureText.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.pictureText.resources
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.dll
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\pictureText\obj\Debug\pictureText.Properties.Resources.resources

@@ -37,6 +37,7 @@
             // 
             this.labelFieldName.AutoSize = true;
             this.labelFieldName.Location = new System.Drawing.Point(0, 0);
+            this.labelFieldName.Margin = new System.Windows.Forms.Padding(0);
             this.labelFieldName.Name = "labelFieldName";
             this.labelFieldName.Size = new System.Drawing.Size(44, 16);
             this.labelFieldName.TabIndex = 0;
@@ -47,16 +48,19 @@
             this.textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox.Location = new System.Drawing.Point(0, 19);
+            this.textBox.Margin = new System.Windows.Forms.Padding(0);
             this.textBox.MaxLength = 50;
             this.textBox.Name = "textBox";
-            this.textBox.Size = new System.Drawing.Size(150, 22);
+            this.textBox.Size = new System.Drawing.Size(147, 22);
             this.textBox.TabIndex = 1;
+            this.textBox.SizeChanged += new System.EventHandler(this.textBox_SizeChanged);
             this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // labelLimit
             // 
             this.labelLimit.AutoSize = true;
             this.labelLimit.Location = new System.Drawing.Point(109, 0);
+            this.labelLimit.Margin = new System.Windows.Forms.Padding(0);
             this.labelLimit.Name = "labelLimit";
             this.labelLimit.Size = new System.Drawing.Size(38, 16);
             this.labelLimit.TabIndex = 2;
@@ -72,7 +76,6 @@
             this.Controls.Add(this.labelFieldName);
             this.Name = "textField";
             this.Size = new System.Drawing.Size(150, 45);
-            this.Load += new System.EventHandler(this.textField_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

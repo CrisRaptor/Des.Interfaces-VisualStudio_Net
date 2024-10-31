@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4001F1BA-3819-4283-90CD-608522C8FDE0}|textField\\textField.csproj|solutionrelative:textfield\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4001F1BA-3819-4283-90CD-608522C8FDE0}|textField\\textField.csproj|c:\\users\\alumno2425\\documents\\vs community\\textfield\\textfield\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4001F1BA-3819-4283-90CD-608522C8FDE0}|textField\\textField.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textfield\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4001F1BA-3819-4283-90CD-608522C8FDE0}|textField\\textField.csproj|solutionrelative:textfield\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "textField\\textField.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textField\\textField.cs",
               "RelativeToolTip": "textField\\textField.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T09:54:02.291Z",
               "EditorCaption": ""
@@ -39,11 +39,10 @@
               "Title": "textField.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textField\\textField.cs",
               "RelativeDocumentMoniker": "textField\\textField.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textField\\textField.cs [Dise\u00F1o]",
-              "RelativeToolTip": "textField\\textField.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textField\\textField.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "textField\\textField.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T09:51:18.005Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-28T09:51:18.005Z"
             }
           ]
         }
