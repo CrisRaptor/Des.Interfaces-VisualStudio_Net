@@ -30,13 +30,14 @@
         {
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.labelDescription = new System.Windows.Forms.Label();
+            this.panelPicture = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
+            this.panelPicture.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox
             // 
-            this.pictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox.Image = global::pictureText.Properties.Resources.user;
             this.pictureBox.InitialImage = global::pictureText.Properties.Resources.user;
             this.pictureBox.Location = new System.Drawing.Point(0, 0);
@@ -59,19 +60,31 @@
             this.labelDescription.Text = "Description";
             this.labelDescription.TextChanged += new System.EventHandler(this.labelDescription_TextChanged);
             // 
+            // panelPicture
+            // 
+            this.panelPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelPicture.Controls.Add(this.pictureBox);
+            this.panelPicture.Location = new System.Drawing.Point(0, 0);
+            this.panelPicture.Margin = new System.Windows.Forms.Padding(0);
+            this.panelPicture.Name = "panelPicture";
+            this.panelPicture.Size = new System.Drawing.Size(100, 100);
+            this.panelPicture.TabIndex = 2;
+            // 
             // pictureText
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Controls.Add(this.panelPicture);
             this.Controls.Add(this.labelDescription);
-            this.Controls.Add(this.pictureBox);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "pictureText";
             this.Size = new System.Drawing.Size(100, 116);
             this.SizeChanged += new System.EventHandler(this.pictureText_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            this.panelPicture.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -81,5 +94,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Label labelDescription;
+        private System.Windows.Forms.Panel panelPicture;
     }
 }

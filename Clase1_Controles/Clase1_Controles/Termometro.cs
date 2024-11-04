@@ -6,7 +6,9 @@ namespace Clase1_Controles
 {
     public partial class Termometro: UserControl
     {
-        public int Cachopo 
+        [Category("Appearance")]
+        [Description("Valor de la temperatura.")]
+        public int Value 
             {
                 get{
                     return temperatura.Value;
@@ -16,8 +18,22 @@ namespace Clase1_Controles
                     temperatura.Value = (value>temperatura.Maximum)?temperatura.Maximum:(value < temperatura.Minimum)?temperatura.Minimum:value;
                 }
             }
-            
-        
+
+        [Category("Appearance")]
+        [Description("Máximo de temperatura.")]
+        public int Maximum
+        {
+            get
+            {
+                return temperatura.Maximum;
+            }
+            set
+            {
+                temperatura.Maximum = (value < 1)?1:value;
+            }
+        }
+
+
 
         public Termometro()
         {

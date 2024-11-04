@@ -64,32 +64,95 @@ namespace pictureText
             }
         }
 
-        [Category("Behaviour")]
-        [Description("Imagen utilizada.")]
-        private void pictureBox_MouseWheel(object sender, MouseEventArgs e)
-        {
-            if (pictureBox.Image == null) return;
-
-            float zoomFactor = 1.1f;
-
-            if (e.Delta > 0)
-            {
-                pictureBox.Width = (int)(pictureBox.Width * zoomFactor);
-                pictureBox.Height = (int)(pictureBox.Height * zoomFactor);
-            }
-            else
-            {
-                pictureBox.Width = (int)(pictureBox.Width / zoomFactor);
-                pictureBox.Height = (int)(pictureBox.Height / zoomFactor);
-            }
-
-
-        }
-
+        private Point lastPoint = new Point(0, 0), initialPoint;
+        private bool isDragging = false;
+        private int pictureInitialWeight, pictureInitialHeight;
         public pictureText()
         {
             InitializeComponent();
-            adjustLabelX();            
+            adjustLabelX();
+
+            pictureInitialWeight = pictureBox.Width;
+            pictureInitialHeight = pictureBox.Height;
+            initialPoint = new Point(pictureBox.Location.X, pictureBox.Location.Y);
+            panelPicture.Width = pictureBox.Width;
+            panelPicture.Height = pictureBox.Height;
+            pictureBox.Location = new Point(0, 0);
+
+            pictureBox.MouseWheel += pictureBox_MouseWheel;
+            pictureBox.MouseUp += pictureBox_MouseUp;
+            pictureBox.MouseMove += pictureBox_MouseMove;
+            pictureBox.MouseDown += pictureBox_MouseDown;
+
+            panelPicture.MouseDown += panel_MouseDown;
+        }
+
+        private void panel_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                pictureBox.Location = initialPoint;
+                pictureBox.Height = pictureInitialHeight;
+                pictureBox.Width = pictureInitialWeight;
+            }
+        }
+
+        private void pictureBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                isDragging = true;
+                lastPoint = e.Location;
+            } else if (e.Button == MouseButtons.Right)
+            {
+                pictureBox.Location = initialPoint;
+                pictureBox.Height = pictureInitialHeight;
+                pictureBox.Width = pictureInitialWeight;
+            }
+        }
+
+        private void pictureBox_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDragging)
+            {
+                int deltaX = e.X - lastPoint.X;
+                int deltaY = e.Y - lastPoint.Y;
+                pictureBox.Left += deltaX;
+                pictureBox.Top += deltaY;
+            }
+
+        }
+
+        private void pictureBox_MouseUp(object sender, MouseEventArgs e)
+        {
+            isDragging = false;
+        }
+
+        private void centerPictureBox()
+        {
+            pictureBox.Top = (this.ClientSize.Height - pictureBox.Height) / 2;
+            pictureBox.Left = (this.ClientSize.Width - pictureBox.Width) / 2;
+        }
+
+
+        private void pictureBox_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (pictureBox.Image == null) return;
+            float ImageScale = 1.1f;
+            if (e.Delta > 0)
+            {
+                pictureBox.Size = new Size(
+                (int)(pictureBox.Width * ImageScale),
+                (int)(pictureBox.Height * ImageScale));
+            } else
+            {
+                pictureBox.Size = new Size(
+                (int)(pictureBox.Width / ImageScale),
+                (int)(pictureBox.Height / ImageScale));
+            }
+
+            centerPictureBox();
+            adjustLabelX();
         }
 
         private void labelDescription_TextChanged(object sender, EventArgs e)
@@ -104,7 +167,7 @@ namespace pictureText
 
         private void adjustLabelX()
         {
-            labelDescription.Location = new Point((pictureBox.Width - labelDescription.Width) / 2, labelDescription.Location.Y);
+            labelDescription.Location = new Point((panelPicture.Width - labelDescription.Width) / 2, panelPicture.Height);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComponentTest.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace ComponentTest
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void termometro2_ValueChange(object sender, EventArgs e)
+        {
+            if (termometro2.Value == termometro2.Maximum)
+            {
+                pictureBox.Image = Resources.house_fire;
+            } else
+            {
+                pictureBox.Image = Resources.house_simple;
+            }
         }
     }
 }

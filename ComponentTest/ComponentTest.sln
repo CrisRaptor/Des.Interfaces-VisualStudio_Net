@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentTest", "ComponentT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "textField", "..\textField\textField\textField.csproj", "{4001F1BA-3819-4283-90CD-608522C8FDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase1_Controles", "..\Clase1_Controles\Clase1_Controles\Clase1_Controles.csproj", "{98BA266B-06FD-4C5C-A0C3-4C32E35389A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termometro", "..\Clase1_Controles\Clase1_Controles\Termometro.csproj", "{98BA266B-06FD-4C5C-A0C3-4C32E35389A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pictureText", "pictureText\pictureText.csproj", "{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}"
 EndProject
