@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|c:\\users\\alumno2425\\documents\\vs community\\componenttest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|c:\\users\\alumno2425\\documents\\vs community\\componenttest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98BA266B-06FD-4C5C-A0C3-4C32E35389A7}|..\\Clase1_Controles\\Clase1_Controles\\Clase1_Controles.csproj|c:\\users\\alumno2425\\documents\\vs community\\clase1_controles\\clase1_controles\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -17,7 +17,7 @@
       "AbsoluteMoniker": "D:0:0:{98BA266B-06FD-4C5C-A0C3-4C32E35389A7}|..\\Clase1_Controles\\Clase1_Controles\\Clase1_Controles.csproj|c:\\users\\alumno2425\\documents\\vs community\\clase1_controles\\clase1_controles\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}|pictureText\\pictureText.csproj|c:\\users\\alumno2425\\documents\\vs community\\componenttest\\picturetext\\picturetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}|pictureText\\pictureText.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\picturetext\\picturetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}|pictureText\\pictureText.csproj|solutionrelative:picturetext\\picturetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -40,12 +40,11 @@
               "RelativeToolTip": "pictureText\\pictureText.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T09:41:20.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T09:41:20.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs",
               "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
@@ -58,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs",
               "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
@@ -78,8 +77,7 @@
               "RelativeToolTip": "..\\Clase1_Controles\\Clase1_Controles\\Termometro.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T09:28:47.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T09:28:47.023Z"
             },
             {
               "$type": "Document",
@@ -90,8 +88,7 @@
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Clase1_Controles\\Clase1_Controles\\Termometro.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\Clase1_Controles\\Clase1_Controles\\Termometro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T09:28:42.837Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-04T09:28:42.837Z"
             }
           ]
         }
