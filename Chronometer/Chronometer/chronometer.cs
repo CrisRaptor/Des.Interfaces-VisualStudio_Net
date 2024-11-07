@@ -69,8 +69,6 @@ namespace Chronometer
             }
             else
             {  
-                //Color color = ColorTranslator.FromHtml("#ff0018");
-                //SwapColor(Resources.dots_on2, color, Color.Blue);
                 dots.Image = Resources.dots_on;
             }
             if (ticks == 10)
@@ -82,23 +80,6 @@ namespace Chronometer
             }
 
         }
-
-    //    // swap one color with another
-    //    private static void SwapColor(Bitmap bmp, Color oldColor, Color newColor)
-    //    {
-    //        var bitMap = new Bitmap(bmp);
-
-    //        for (int y = 0; y < bitMap.Height; y++)
-    //{
-    //            for (int x = 0; x < bitMap.Width; x++)
-    //            {
-    //                if (bitMap.GetPixel(x, y) == oldColor)
-    //                {
-    //                    bitMap.SetPixel(x, y, newColor);
-    //                }
-    //            }
-    //        }
-    //    }
 
         private void addTime()
         {

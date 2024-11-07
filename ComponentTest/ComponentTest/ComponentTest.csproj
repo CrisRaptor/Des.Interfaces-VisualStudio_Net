@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Chronometer">
+      <HintPath>..\..\Chrono\Chronometer\bin\Debug\Chronometer.dll</HintPath>
+    </Reference>
     <Reference Include="Clase1_Controles">
       <HintPath>..\..\Clase1_Controles\Clase1_Controles\bin\Debug\Clase1_Controles.dll</HintPath>
     </Reference>

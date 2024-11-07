@@ -1,0 +1,27 @@
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\bin\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\bin\Debug\Chronometer.pdb
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.chronometer.resources
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.Properties.Resources.resources
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\source\repos\Chronometer\Chronometer\obj\Debug\Chronometer.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\bin\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\bin\Debug\Chronometer.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.chronometer.resources
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\Documents\VS Community\Chronometer\Chronometer\obj\Debug\Chronometer.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.chrono.resources
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\obj\Debug\Chronometer.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\bin\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\Documents\VS Community\Chrono\Chronometer\bin\Debug\Chronometer.pdb

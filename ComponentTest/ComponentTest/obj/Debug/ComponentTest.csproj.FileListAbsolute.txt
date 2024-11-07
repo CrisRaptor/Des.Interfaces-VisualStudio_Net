@@ -15,3 +15,5 @@ C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug
 C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\Clase1_Controles.pdb
 C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\pictureText.dll
 C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\pictureText.pdb
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\Chronometer.dll
+C:\Users\ALUMNO2425\Documents\VS Community\ComponentTest\ComponentTest\bin\Debug\Chronometer.pdb

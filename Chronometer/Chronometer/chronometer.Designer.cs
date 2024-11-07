@@ -94,7 +94,7 @@
             // 
             // dots
             // 
-            this.dots.Image = global::Chronometer.Properties.Resources.dots_on2;
+            this.dots.Image = global::Chronometer.Properties.Resources.dots_on;
             this.dots.Location = new System.Drawing.Point(250, 30);
             this.dots.Margin = new System.Windows.Forms.Padding(0);
             this.dots.MinimumSize = new System.Drawing.Size(40, 220);

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termometro", "..\Clase1_Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pictureText", "pictureText\pictureText.csproj", "{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronometer", "..\Chrono\Chronometer\Chronometer.csproj", "{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDA68CE6-09D4-44AC-A1E2-7D93FA2555F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
