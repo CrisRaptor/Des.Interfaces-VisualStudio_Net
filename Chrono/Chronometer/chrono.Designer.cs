@@ -95,6 +95,7 @@
             // 
             // timer
             // 
+            this.timer.Interval = 10;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // digit1Top

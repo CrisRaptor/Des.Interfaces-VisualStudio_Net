@@ -28,41 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.chrono2 = new Chronometer.chrono();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.HoraRegistro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chrono = new Chronometer.chrono();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // chrono2
+            // dataGridView
             // 
-            this.chrono2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.chrono2.BackColor = System.Drawing.Color.Transparent;
-            this.chrono2.colorOff = System.Drawing.Color.Transparent;
-            this.chrono2.colorOn = System.Drawing.Color.Red;
-            this.chrono2.dotTicksRatio = 6;
-            this.chrono2.Location = new System.Drawing.Point(9, 9);
-            this.chrono2.Margin = new System.Windows.Forms.Padding(0);
-            this.chrono2.MinimumSize = new System.Drawing.Size(540, 250);
-            this.chrono2.Name = "chrono2";
-            this.chrono2.Size = new System.Drawing.Size(540, 250);
-            this.chrono2.TabIndex = 0;
-            this.chrono2.TimeChange += new Chronometer.chrono.GetValuesEventHandler(this.chrono1_TimeChange);
+            this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.AllowUserToDeleteRows = false;
+            this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HoraRegistro});
+            this.dataGridView.Location = new System.Drawing.Point(579, 9);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.ReadOnly = true;
+            this.dataGridView.RowHeadersVisible = false;
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.RowTemplate.Height = 24;
+            this.dataGridView.Size = new System.Drawing.Size(300, 250);
+            this.dataGridView.TabIndex = 2;
             // 
-            // listBox1
+            // HoraRegistro
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(32, 271);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 84);
-            this.listBox1.TabIndex = 1;
+            this.HoraRegistro.HeaderText = "Hora Registrada";
+            this.HoraRegistro.MinimumWidth = 6;
+            this.HoraRegistro.Name = "HoraRegistro";
+            this.HoraRegistro.ReadOnly = true;
+            // 
+            // chrono
+            // 
+            this.chrono.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.chrono.BackColor = System.Drawing.Color.Transparent;
+            this.chrono.colorOff = System.Drawing.Color.Transparent;
+            this.chrono.colorOn = System.Drawing.Color.Red;
+            this.chrono.DotTicksRatio = 6;
+            this.chrono.Location = new System.Drawing.Point(9, 9);
+            this.chrono.Margin = new System.Windows.Forms.Padding(0);
+            this.chrono.MinimumSize = new System.Drawing.Size(540, 250);
+            this.chrono.Name = "chrono";
+            this.chrono.Size = new System.Drawing.Size(540, 250);
+            this.chrono.TabIndex = 3;
+            this.chrono.TimeChange += new Chronometer.chrono.GetValuesEventHandler(this.chrono_TimeChange);
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(899, 546);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.chrono2);
+            this.Controls.Add(this.chrono);
+            this.Controls.Add(this.dataGridView);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -77,7 +95,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn HoraRegistrada;
         private Chronometer.chrono chrono1;
         private Chronometer.chrono chrono2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoraRegistro;
+        private Chronometer.chrono chrono;
     }
 }
 

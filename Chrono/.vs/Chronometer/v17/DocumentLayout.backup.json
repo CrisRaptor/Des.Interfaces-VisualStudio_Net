@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\dots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\chronometer\\dots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\dots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\chronometer\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\digit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\chronometer\\digit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\digit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -43,8 +43,7 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAAAD4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T08:54:45.97Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "Chronometer\\Dots.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwBgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T10:03:13.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T10:03:13.413Z"
             },
             {
               "$type": "Document",
@@ -69,25 +67,24 @@
               "RelativeToolTip": "Chronometer\\Digit.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAQwHEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T07:43:58.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T07:43:58.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "chrono.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\chrono.cs",
               "RelativeDocumentMoniker": "Chronometer\\chrono.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\chrono.cs",
               "RelativeToolTip": "Chronometer\\chrono.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAkwHkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwHkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T11:36:46.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "chrono.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\chrono.cs",
               "RelativeDocumentMoniker": "Chronometer\\chrono.cs",

@@ -70,7 +70,6 @@ namespace textField
 
         private void adjustRightLabel()
         {
-            
             labelLimit.Location = new Point(Right - Left - labelLimit.Width, 0);
         }
     

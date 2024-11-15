@@ -20,8 +20,7 @@ namespace Chronometer
 
         [Category("Frecuencia")]
         [Description("Frecuencia de parpadeo de los puntos medido en décimas de segundo.")]
-        public int dotTicksRatio { get; set; }
-
+        public int DotTicksRatio { get; set; }
 
         [Category("Coloreado")]
         [Description("Color de las líneas encendidas.")]
@@ -80,7 +79,7 @@ namespace Chronometer
         {
             InitializeComponent();
             tickRatio = 1;
-            dotTicksRatio = 6;
+            DotTicksRatio = 6;
 
             //Crear contador para los minutos
             Digit digit1 = new Digit(digit1Top, digit1TopStart, digit1TopEnd, digit1Center, digit1BottonStart, digit1BottonEnd, digit1Botton);
@@ -91,10 +90,12 @@ namespace Chronometer
             //Crear contador para los segundos
             Digit digit3 = new Digit(digit3Top, digit3TopStart, digit3TopEnd, digit3Center, digit3BottonStart, digit3BottonEnd, digit3Botton);
             Digit digit4 = new Digit(digit4Top, digit4TopStart, digit4TopEnd, digit4Center, digit4BottonStart, digit4BottonEnd, digit4Botton);
-            List<Digit> digitsSeconds = new List<Digit> { digit3, digit4 };
+            List<Digit> digitsSeconds = new List<Digit> { digit3, digit4};
             Counter seconds = new Counter(digitsSeconds,59, colorOn, colorOff);
-            
+
             //Añadir contadores
+            minutes.number = 0;
+            seconds.number = 0;
             contadores.Add(minutes);
             contadores.Add(seconds);
 
@@ -104,15 +105,6 @@ namespace Chronometer
             ticks = 0;
             dotTicks = 0;
         }
-
-        public delegate void GetValuesEventHandler(List<int> values);
-
-        [Browsable(true)]
-        [Category("Eventos internos")]
-        [Description("Se activa cuando el temporizador cambia.")]
-        public event GetValuesEventHandler TimeChange;
-
-
 
         private void buttonStart_Click(object sender, System.EventArgs e)
         {
@@ -140,7 +132,7 @@ namespace Chronometer
         {
             ticks++;
             dotTicks++;
-            if ((dotTicks % (dotTicksRatio/tickRatio)) == 0)
+            if ((dotTicks % (DotTicksRatio/tickRatio)) == 0)
             {
                 foreach (Dots dot in dotList)
                 {
@@ -165,19 +157,18 @@ namespace Chronometer
         }
         private void addTime()
         {
-            int pos = contadores.Count - 1;
+            int pos = contadores.Count -1;
             while (pos >= 0)
             {
                 int increase = contadores[pos].increase();
                 if (increase == 0)
                 {
                     pos--;
-                }
-                else
+                } else
                 {
-                    pos = 0;
+                    pos = -1;
                 }
-            }
+            } 
         }
 
 
@@ -197,5 +188,12 @@ namespace Chronometer
             buttonStart.Text = "START";
             buttonReset.Enabled = false;
         }
+
+        public delegate void GetValuesEventHandler(List<int> values);
+
+        [Browsable(true)]
+        [Category("Eventos internos")]
+        [Description("Se activa cuando el temporizador cambia.")]
+        public event GetValuesEventHandler TimeChange;
     }
 }

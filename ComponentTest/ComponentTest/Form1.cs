@@ -16,16 +16,10 @@ namespace ComponentTest
 
         private void termometro2_ValueChange(object sender, EventArgs e)
         {
-            if (termometro2.Value == termometro2.Maximum)
-            {
-                pictureBox.Image = Resources.house_fire;
-            } else
-            {
-                pictureBox.Image = Resources.house_simple;
-            }
+
         }
 
-        private void chrono1_TimeChange(List<int> values)
+        private void chrono_TimeChange(List<int> values)
         {
             if (tick == 30)
             {
@@ -33,8 +27,11 @@ namespace ComponentTest
             }
             if (tick == 0)
             {
-                TimeSpan ts = DateTime.Now.TimeOfDay;
-                listBox1.Items.Add(ts.ToString().Substring(0,8));
+                string time = DateTime.Now.ToLongTimeString();
+                string date = DateTime.Now.ToShortDateString();
+
+                dataGridView.Rows.Add(date + " | " + time);
+                dataGridView.ClearSelection();
             }
             tick++;
         }

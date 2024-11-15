@@ -3,11 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\digit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -16,14 +26,7 @@
       "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\dots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4001F1BA-3819-4283-90CD-608522C8FDE0}|..\\textField\\textField\\textField.csproj|c:\\users\\alumno2425\\documents\\vs community\\textfield\\textfield\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,17 +36,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs",
               "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs",
-              "RelativeToolTip": "ComponentTest\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs*",
+              "RelativeToolTip": "ComponentTest\\Form1.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T09:29:29.472Z",
               "IsPinned": true,
@@ -51,46 +54,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs",
+              "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "ComponentTest\\Form1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T11:50:39.902Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Dots.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Dots.cs",
               "RelativeDocumentMoniker": "..\\Chrono\\Chronometer\\Dots.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Dots.cs",
               "RelativeToolTip": "..\\Chrono\\Chronometer\\Dots.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:41:02.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Digit.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Digit.cs",
               "RelativeDocumentMoniker": "..\\Chrono\\Chronometer\\Digit.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Digit.cs",
               "RelativeToolTip": "..\\Chrono\\Chronometer\\Digit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAswJQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:41:00.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Counter.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Counter.cs",
               "RelativeDocumentMoniker": "..\\Chrono\\Chronometer\\Counter.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Counter.cs",
               "RelativeToolTip": "..\\Chrono\\Chronometer\\Counter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAA5wEkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:40:54.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "chrono.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\chrono.cs",
               "RelativeDocumentMoniker": "..\\Chrono\\Chronometer\\chrono.cs",
@@ -102,28 +117,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "chrono.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\chrono.cs",
               "RelativeDocumentMoniker": "..\\Chrono\\Chronometer\\chrono.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\chrono.cs",
               "RelativeToolTip": "..\\Chrono\\Chronometer\\chrono.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAswKgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T13:29:47.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs",
-              "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\ComponentTest\\ComponentTest\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ComponentTest\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 7,
+              "Title": "textField.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textField\\textField.cs",
+              "RelativeDocumentMoniker": "..\\textField\\textField\\textField.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\textField\\textField\\textField.cs",
+              "RelativeToolTip": "..\\textField\\textField\\textField.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEgAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:50:39.902Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-11T09:09:07.208Z",
+              "EditorCaption": ""
             }
           ]
         }
