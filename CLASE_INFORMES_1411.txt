@@ -1,0 +1,46 @@
+CLASE INFORMES 14/11
+- Extensiones
+- Administrar extensiones
+- Examinación
+- Busca rdlc
+- Ejecuta el archivo descargado "vsix installer"
+- Mientras instala pide "end tasks"
+- Cuando termine, vuelve a abrir visual y el proyecto
+- En el proyecto, clic derecho -> agregar -> carpeta
+- Clic derecho carpeta -> agregar -> elemento
+- Busca "informe" o "report", el nombre del archivo termina en ".rdlc"
+- Crea el informe
+- Clic derecho al proyecto "informes" -> "administrar paquetees NuGet"
+- En examinar busca reportviewercontrol
+- Elegir "Microsoft.ReportingServices.ReportViewerControl.Winforms"
+- Instala la ultima version estable
+- Aplica y acepta, cierra la ventana nueva de sql y de nuget
+- En la ventana del informe clic derecho sobre el recuadro "insertar"->"cuadro de texto"
+- Escribe "hola mundo"
+- En el form, añade el reportviewer
+- Si no sale en los componentes, "elegir elementos" -> examinar
+- Busca por "Microsoft.ReportViewer.WinForms.dll" en el proyecto "\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40"
+- Eligelo, acepta y añade el elemento al form
+- En la flecha del componente acoplar al contenedor primario, despues elige el report creado
+- Guarda, compila solucion y ejecuta
+
+	Primer Proyecto
+- Agrega al proyecto una clase "Notas"
+- Propiedades nombre, notas, observaciones
+- Compila
+- Añade tabla, elige de origen "Objeto" elige Notas
+- En la tabla escribe un encabezado "Nom." y en la parte de datos en el icono arriba a la derecha de cada celda clic y selecciona los valores
+- En el codigo del form, en el load añade una funcion "RellenarDataSet();"
+- Añade el codigo:
+private void RellenarDataSet()
+{
+    List<Notas> notas = new List<Notas>()
+    {
+        new Notas{ Nombre = "Fernando", Nota = 0, Observaciones = "Descargando..."},
+        new Notas{ Nombre = "Cristian", Nota = 6, Observaciones = "Participativo"},
+        new Notas{ Nombre = "Alvaro", Nota = 4, Observaciones = "Pone un mala nota a Fernando"}
+    };
+    ReportDataSource reportDataSource = new ReportDataSource("DataSet1", notas);
+    reportViewer1.LocalReport.DataSources.Clear();
+    reportViewer1.LocalReport.DataSources.Add(reportDataSource);
+}
