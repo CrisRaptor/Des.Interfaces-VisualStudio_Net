@@ -1,0 +1,13 @@
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.Form1.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\bin\Debug\Partido.exe.config
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\bin\Debug\Partido.exe
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\bin\Debug\Partido.pdb
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\bin\Debug\MarcadorFutbol.dll
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\bin\Debug\MarcadorFutbol.pdb
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.csproj.Up2Date
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.exe
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\Partido\Partido\obj\Debug\Partido.pdb

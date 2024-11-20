@@ -1,0 +1,8 @@
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\bin\Debug\MarcadorFutbol.dll
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\bin\Debug\MarcadorFutbol.pdb
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\obj\Debug\MarcadorFutbol.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\obj\Debug\MarcadorFutbol.Marcador.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\obj\Debug\MarcadorFutbol.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\obj\Debug\MarcadorFutbol.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\obj\Debug\MarcadorFutbol.dll
+C:\Users\ALUMNO2425\Documents\VSCommunity\ExamenComponente\MarcadorFutbol\MarcadorFutbol\obj\Debug\MarcadorFutbol.pdb
