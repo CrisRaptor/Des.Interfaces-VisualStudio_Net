@@ -180,6 +180,8 @@
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Notas.datasource" />
+    <None Include="Properties\DataSources\Product.datasource" />
+    <None Include="Properties\DataSources\Rating.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -34,6 +34,7 @@ namespace Informes
 
             reportViewer2.LocalReport.SetParameters(new ReportParameter(reportViewer2.LocalReport.GetParameters()[0].Name, "Reporte de empleados"));
             reportViewer2.RefreshReport();
+            this.reportViewer3.RefreshReport();
         }
 
         private void rellenarDataSet()
@@ -78,7 +79,6 @@ namespace Informes
             RestResponse response =  client.Execute(request); 
             List<Product> products = JsonConvert.DeserializeObject<List<Product>>(response.Content);
             //Product productos = JsonSerializer.Deserialize<Product>(response.Content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-            label1.Text = products.ToArray().ToString();
         }
     }
 }
