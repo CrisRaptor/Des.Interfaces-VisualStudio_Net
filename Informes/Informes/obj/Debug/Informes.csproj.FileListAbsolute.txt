@@ -156,3 +156,7 @@ C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\bin\Debug\System.Thr
 C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\bin\Debug\System.ValueTuple.xml
 C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\obj\Debug\Informes.csproj.SuggestedBindingRedirects.cache
 C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\obj\Debug\Informes.exe.config
+C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\bin\Debug\RestSharp.dll
+C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ALUMNO2425\Documents\VSCommunity\Informes\Informes\bin\Debug\RestSharp.xml

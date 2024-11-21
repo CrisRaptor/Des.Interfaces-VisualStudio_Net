@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\informes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\informes\\informes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\informes\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\informes\\informe\\report2.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
@@ -19,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\informe\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\informes\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\informes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\informes\\informes\\informe\\report3.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{A606E5F7-EC8E-4412-9566-21DDEBF48CB8}|Informes\\Informes.csproj|solutionrelative:informes\\informe\\report3.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +48,7 @@
               "RelativeDocumentMoniker": "Informes\\Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Form1.cs",
               "RelativeToolTip": "Informes\\Form1.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowFAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T11:03:53.145Z",
               "IsPinned": true,
@@ -49,17 +57,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Report2.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report2.rdlc",
-              "RelativeDocumentMoniker": "Informes\\Informe\\Report2.rdlc",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report2.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "Informes\\Informe\\Report2.rdlc [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-11-18T08:51:33.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Notas.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Notas.cs",
               "RelativeDocumentMoniker": "Informes\\Notas.cs",
@@ -67,29 +64,69 @@
               "RelativeToolTip": "Informes\\Notas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:54:06.063Z"
+              "WhenOpened": "2024-11-14T10:54:06.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Report1.rdlc [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report1.rdlc",
               "RelativeDocumentMoniker": "Informes\\Informe\\Report1.rdlc",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report1.rdlc [Dise\u00F1o]",
               "RelativeToolTip": "Informes\\Informe\\Report1.rdlc [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-11-14T10:31:43.251Z"
+              "WhenOpened": "2024-11-14T10:31:43.251Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Form1.cs",
               "RelativeDocumentMoniker": "Informes\\Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Informes\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:21:36.364Z"
+              "WhenOpened": "2024-11-14T10:21:36.364Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report2.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report2.rdlc",
+              "RelativeDocumentMoniker": "Informes\\Informe\\Report2.rdlc",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report2.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "Informes\\Informe\\Report2.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-18T08:51:33.503Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Product.cs",
+              "RelativeDocumentMoniker": "Informes\\Product.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Product.cs",
+              "RelativeToolTip": "Informes\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:13:44.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Report3.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report3.rdlc",
+              "RelativeDocumentMoniker": "Informes\\Informe\\Report3.rdlc",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Informes\\Informes\\Informe\\Report3.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "Informes\\Informe\\Report3.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-21T08:06:10.343Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

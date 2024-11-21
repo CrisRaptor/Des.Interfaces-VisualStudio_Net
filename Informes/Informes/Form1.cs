@@ -1,12 +1,17 @@
 ﻿using Microsoft.Reporting.WinForms;
+using Newtonsoft.Json;
 using Npgsql;
+using RestSharp;
+using RestSharp.Serializers.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -26,6 +31,9 @@ namespace Informes
             connectToDatabase("empleados", "SELECT * FROM departamentos");
             this.reportViewer1.RefreshReport();
             this.reportViewer2.RefreshReport();
+
+            reportViewer2.LocalReport.SetParameters(new ReportParameter(reportViewer2.LocalReport.GetParameters()[0].Name, "Reporte de empleados"));
+            reportViewer2.RefreshReport();
         }
 
         private void rellenarDataSet()
@@ -39,6 +47,7 @@ namespace Informes
             ReportDataSource reportDataSource = new ReportDataSource("DataSet1", notas);
             reportViewer1.LocalReport.DataSources.Clear();
             reportViewer1.LocalReport.DataSources.Add(reportDataSource);
+            importApiData();
         }
 
         private void connectToDatabase(string database, string sql)
@@ -58,6 +67,18 @@ namespace Informes
                 reportViewer2.LocalReport.DataSources.Add(reportDataSource);
             }
            
+        }
+
+        private void importApiData()
+        {
+            
+            RestClient client = new RestClient("https://fakestoreapi.com/");
+            RestRequest request =  new RestRequest("products");
+
+            RestResponse response =  client.Execute(request); 
+            List<Product> products = JsonConvert.DeserializeObject<List<Product>>(response.Content);
+            //Product productos = JsonSerializer.Deserialize<Product>(response.Content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            label1.Text = products.ToArray().ToString();
         }
     }
 }
