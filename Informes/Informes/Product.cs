@@ -22,10 +22,5 @@ namespace Informes
     {
         public float Rate { get; set; }
         public int Count { get; set; }
-
-        public override string ToString()
-        {
-            return "Rate: " + Rate + ", Count " + Count;
-        }
     }
 }
