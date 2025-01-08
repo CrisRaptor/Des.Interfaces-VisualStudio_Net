@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{94E61849-6B65-470A-83EC-DD91E414053C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComprobarSueño", "WpfApp1\ComprobarSueño.csproj", "{94E61849-6B65-470A-83EC-DD91E414053C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

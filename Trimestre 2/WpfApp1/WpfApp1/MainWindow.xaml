@@ -12,7 +12,8 @@
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Offset="1"/>
-                    <GradientStop Color="#FFFFD5D5" Offset="0.766"/>
+                    <GradientStop Color="#FFFFD5D5" Offset="0.211"/>
+                    <GradientStop Color="#33FFD5D5" Offset="0.87"/>
                 </RadialGradientBrush>
             </Button.Background>
             <Button.Resources>
@@ -43,6 +44,8 @@
                                 <ControlTemplate.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Background" Value="AntiqueWhite"/>
+                                        <Setter TargetName="eliCheck" Property="Visibility" Value="Visible"></Setter>
+                                        <Setter TargetName="eliCheck" Property="Opacity" Value="0.3" />
                                     </Trigger>
                                     <Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="LightGreen" />
@@ -50,7 +53,7 @@
                                     <Trigger Property="IsEnabled" Value="False">
                                         <Setter Property="Foreground" Value="Green" />
                                         <Setter Property="BorderBrush" Value="Black"/>
-                                        <Setter TargetName="eliCheck" Property="Opacity" Value="0.5" />
+                                        <Setter TargetName="eliCheck" Property="Opacity" Value="0.7" />
                                     </Trigger>
                                     <Trigger Property="IsChecked" Value="True">
                                         <Setter TargetName="eliCheck" Property="Visibility" Value="Visible"></Setter>
