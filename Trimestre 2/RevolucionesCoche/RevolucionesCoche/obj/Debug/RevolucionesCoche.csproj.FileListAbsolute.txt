@@ -1,0 +1,15 @@
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\bin\Debug\RevolucionesCoche.exe.config
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\bin\Debug\RevolucionesCoche.exe
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\bin\Debug\RevolucionesCoche.pdb
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\MainWindow.g.cs
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\App.g.cs
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche_MarkupCompile.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche_MarkupCompile.lref
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\MainWindow.baml
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.g.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.exe
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\RevolucionesCoche\RevolucionesCoche\obj\Debug\RevolucionesCoche.pdb
