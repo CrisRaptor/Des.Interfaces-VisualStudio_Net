@@ -9,17 +9,127 @@
     <Window.Resources>
         <ImageBrush x:Key="AccelerateImage" ImageSource="/Images/pedal-acelerador.png" Stretch="Uniform"/>
         <ImageBrush x:Key="BrakeImage" ImageSource="/Images/pedal-freno.png" Stretch="Uniform"/>
-        <Style TargetType="UserControl">
-            <Style.Resources>
-                <SolidColorBrush x:Key="" Color="Transparent"/>
-            </Style.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="BaseButtonStyle" TargetType="{x:Type ButtonBase}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ButtonBase}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="RepeatButtonGuay" BasedOn="{StaticResource BaseButtonStyle}" TargetType="{x:Type RepeatButton}">
+            <Setter Property="Stylus.IsPressAndHoldEnabled" Value="false"/>
+        </Style>
+        <Style x:Key="FocusVisual1">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background1" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border1" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background1" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border1" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background1" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border1" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background1" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border1" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground1" Color="#FF838383"/>
+        <Style x:Key="BaseButtonStyle1" TargetType="{x:Type ButtonBase}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual1}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background1}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border1}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ButtonBase}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="RepeatButtonStyle1" BasedOn="{StaticResource BaseButtonStyle1}" TargetType="{x:Type RepeatButton}">
+            <Setter Property="Stylus.IsPressAndHoldEnabled" Value="false"/>
         </Style>
     </Window.Resources>
     <Grid>
-        <RepeatButton Height="91" Width="73" Background="{StaticResource BrakeImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="630,280,0,0">
-
-        </RepeatButton>
-        <RepeatButton Height="135" Width="72" Background="{StaticResource AccelerateImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="708,280,0,0" />
-        <Image Source="/Images/cuentarrevoluciones.png" HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="300"/>
+        <RepeatButton Style="{DynamicResource RepeatButtonGuay}" Height="91" Width="73" Background="{StaticResource BrakeImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="630,280,0,0"/>
+        <RepeatButton Style="{DynamicResource RepeatButtonStyle1}" Height="135" Width="72" Background="{StaticResource AccelerateImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="708,280,0,0" />
+        <Image Source="/Images/cuentarrevoluciones.png" Height="300" VerticalAlignment="Top" Stretch="Fill" Margin="0,67,0,0" HorizontalAlignment="Center" Width="300"/>
+        <Image x:Name="imagen_puntero_revoluciones" Source="/Images/pointer.png" HorizontalAlignment="Center" Height="216" VerticalAlignment="Top" Width="32" Stretch="Fill" Margin="0,118,0,0" RenderTransformOrigin="0.506,0.499">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="-135"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label x:Name="texto_revoluciones_digital" Content="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,316,0,0" Background="#9BC1EED5" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Width="78" Height="30" VerticalAlignment="Top"/>
+        <TextBox x:Name="edittext_max_revoluciones" IsEnabled="False" Text="6000" HorizontalAlignment="Left" Margin="625,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="24"/>
+        <Label x:Name="label_revoluciones_max" Content="Revoluciones máximas" HorizontalAlignment="Left" Margin="610,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="edittext_caballos" IsEnabled="False" Text="100" HorizontalAlignment="Left" Margin="625,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="24" TextChanged="edittext_max_revoluciones_Copiar_TextChanged"/>
+        <Label x:Name="label_caballos" Content="Caballos de potencia" HorizontalAlignment="Left" Margin="617,124,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Rectangle x:Name="r_medidor_revoluciones" HorizontalAlignment="Left" Height="283" Margin="129,84,0,0" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="76"/>
+        <Rectangle x:Name="r_revoluciones" HorizontalAlignment="Left" Height="273" Margin="134,89,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="66">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF369D4F" Offset="1"/>
+                    <GradientStop Color="Red" Offset="0"/>
+                    <GradientStop Color="#FFD5D735" Offset="0.645"/>
+                    <GradientStop Color="#FFC9933C" Offset="0.358"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+            <Rectangle.OpacityMask>
+                <LinearGradientBrush StartPoint="0.2,0.2" EndPoint="1,1.5">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Offset="0.2" Color="Black"/>
+                        <GradientStop Offset="0" Color="Transparent"/>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.OpacityMask>
+        </Rectangle>
     </Grid>
 </Window>

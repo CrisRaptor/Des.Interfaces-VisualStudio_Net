@@ -15,14 +15,37 @@ using System.Windows.Shapes;
 
 namespace RevolucionesCoche
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        int revoluciones, max_revoluciones;
         public MainWindow()
         {
             InitializeComponent();
+            revoluciones = 0;
+        }
+
+        public int acelera()
+        {
+            revoluciones++;
+            texto_revoluciones_digital.Content = revoluciones.ToString();
+            imagen_puntero_revoluciones.RenderTransform = new RotateTransform(calcularAngulo(revoluciones, max_revoluciones, 230, -135));
+            return revoluciones;
+        }
+
+        private void edittext_max_revoluciones_Copiar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (Convert.ToInt64(edittext_caballos.Text) > 150)
+            {
+                edittext_caballos.Text = 150.ToString();
+            } else if (Convert.ToInt64(edittext_caballos.Text) < 100)
+            {
+                edittext_caballos.Text = 100.ToString();
+            }
+        }
+
+        private int calcularAngulo(int revoluciones, int max_revoluciones, int anguloTotal, int anguloInicio)
+        {
+            return ((revoluciones / max_revoluciones) * anguloTotal) - anguloInicio;
         }
     }
 }
