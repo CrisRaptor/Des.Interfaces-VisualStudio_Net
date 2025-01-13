@@ -35,7 +35,8 @@
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:31:32.407Z"
+              "WhenOpened": "2024-11-20T11:31:32.407Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -45,9 +46,10 @@
               "RelativeDocumentMoniker": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "RelativeToolTip": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwDMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:31:28.737Z"
+              "WhenOpened": "2024-11-20T11:31:28.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +59,7 @@
               "RelativeDocumentMoniker": "Partido\\Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\Partido\\Form1.cs",
               "RelativeToolTip": "Partido\\Form1.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv38AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwH8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:31:44.223Z",
               "EditorCaption": ""

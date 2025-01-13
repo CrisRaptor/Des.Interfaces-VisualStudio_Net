@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\Partido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B2E3E3B-448A-41DC-864E-BD93C64F5834}|Partido\\Partido.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\examencomponente\\partido\\partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3B2E3E3B-448A-41DC-864E-BD93C64F5834}|Partido\\Partido.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 1\\examencomponente\\partido\\partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B2E3E3B-448A-41DC-864E-BD93C64F5834}|Partido\\Partido.csproj|solutionrelative:partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2E3E3B-448A-41DC-864E-BD93C64F5834}|Partido\\Partido.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B2E3E3B-448A-41DC-864E-BD93C64F5834}|Partido\\Partido.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\Partido\\partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B2E3E3B-448A-41DC-864E-BD93C64F5834}|Partido\\Partido.csproj|solutionrelative:partido\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|..\\MarcadorFutbol\\MarcadorFutbol\\MarcadorFutbol.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\examencomponente\\marcadorfutbol\\marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\alumno2425\\documents\\vscommunity\\examencomponente\\marcadorfutbol\\marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|..\\MarcadorFutbol\\MarcadorFutbol\\MarcadorFutbol.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\examencomponente\\marcadorfutbol\\marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,33 +31,31 @@
               "DocumentIndex": 2,
               "Title": "Marcador.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
-              "RelativeDocumentMoniker": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:31:32.407Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-20T11:31:32.407Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Marcador.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
-              "RelativeDocumentMoniker": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
-              "RelativeToolTip": "..\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
+              "RelativeToolTip": "..\\..\\..\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:31:28.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T11:31:28.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\Partido\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\Partido\\Partido\\Form1.cs",
               "RelativeDocumentMoniker": "Partido\\Form1.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\Partido\\Form1.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\Partido\\Partido\\Form1.cs",
               "RelativeToolTip": "Partido\\Form1.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAkwH8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,13 +66,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\Partido\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\Partido\\Partido\\Form1.cs",
               "RelativeDocumentMoniker": "Partido\\Form1.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ExamenComponente\\Partido\\Partido\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\Partido\\Partido\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Partido\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:29:30.19Z",
               "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1029,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
