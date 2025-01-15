@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RevolucionesCoche"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="641">
     <Window.Resources>
-        <ImageBrush x:Key="AccelerateImage" ImageSource="/Images/pedal-acelerador.png" Stretch="Uniform"/>
-        <ImageBrush x:Key="BrakeImage" ImageSource="/Images/pedal-freno.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="AccelerateImage" ImageSource="/Images/pedal-acelerador.png" Stretch="Fill"/>
+        <ImageBrush x:Key="BrakeImage" ImageSource="/Images/pedal-freno.png" Stretch="Fill"/>
+        <ImageBrush x:Key="LlaveOff" ImageSource="/Images/llave-off.png" Stretch="Uniform"/>
+
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
                 <Setter.Value>
@@ -95,41 +97,83 @@
         <Style x:Key="RepeatButtonStyle1" BasedOn="{StaticResource BaseButtonStyle1}" TargetType="{x:Type RepeatButton}">
             <Setter Property="Stylus.IsPressAndHoldEnabled" Value="false"/>
         </Style>
+        <Style x:Key="FocusVisual2">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background2" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border2" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background2" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border2" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background2" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border2" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background2" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border2" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground2" Color="#FF838383"/>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual2}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background2}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border2}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
     <Grid>
-        <RepeatButton Style="{DynamicResource RepeatButtonGuay}" Height="91" Width="73" Background="{StaticResource BrakeImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="630,280,0,0"/>
-        <RepeatButton Style="{DynamicResource RepeatButtonStyle1}" Height="135" Width="72" Background="{StaticResource AccelerateImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="708,280,0,0" />
-        <Image Source="/Images/cuentarrevoluciones.png" Height="300" VerticalAlignment="Top" Stretch="Fill" Margin="0,67,0,0" HorizontalAlignment="Center" Width="300"/>
-        <Image x:Name="imagen_puntero_revoluciones" Source="/Images/pointer.png" HorizontalAlignment="Center" Height="216" VerticalAlignment="Top" Width="32" Stretch="Fill" Margin="0,118,0,0" RenderTransformOrigin="0.506,0.499">
+        <RepeatButton x:Name="freno" Style="{DynamicResource RepeatButtonGuay}" Height="91" Width="74" Background="{StaticResource BrakeImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="242,289,0,0" Click="freno_Click" BorderBrush="{x:Null}"/>
+        <RepeatButton x:Name="acelerador" Style="{DynamicResource RepeatButtonStyle1}" Height="135" Width="53" Background="{StaticResource AccelerateImage}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,289,0,0" Click="acelerador_Click" BorderBrush="{x:Null}" />
+        <Image Source="/Images/cuentarrevoluciones.png" Height="300" VerticalAlignment="Top" Stretch="Fill" Margin="0,1,0,0" HorizontalAlignment="Center" Width="300"/>
+        <Image x:Name="imagen_puntero_revoluciones" Source="/Images/pointer.png" HorizontalAlignment="Center" Height="216" VerticalAlignment="Top" Width="32" Stretch="Fill" Margin="0,52,0,0" RenderTransformOrigin="0.506,0.499">
             <Image.RenderTransform>
                 <TransformGroup>
                     <RotateTransform Angle="-135"/>
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Label x:Name="texto_revoluciones_digital" Content="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,316,0,0" Background="#9BC1EED5" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Width="78" Height="30" VerticalAlignment="Top"/>
-        <TextBox x:Name="edittext_max_revoluciones" IsEnabled="False" Text="6000" HorizontalAlignment="Left" Margin="625,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="24"/>
-        <Label x:Name="label_revoluciones_max" Content="Revoluciones máximas" HorizontalAlignment="Left" Margin="610,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <TextBox x:Name="edittext_caballos" IsEnabled="False" Text="100" HorizontalAlignment="Left" Margin="625,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="24" TextChanged="edittext_max_revoluciones_Copiar_TextChanged"/>
-        <Label x:Name="label_caballos" Content="Caballos de potencia" HorizontalAlignment="Left" Margin="617,124,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <Rectangle x:Name="r_medidor_revoluciones" HorizontalAlignment="Left" Height="283" Margin="129,84,0,0" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="76"/>
-        <Rectangle x:Name="r_revoluciones" HorizontalAlignment="Left" Height="273" Margin="134,89,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="66">
+        <Label x:Name="texto_revoluciones_digital" Content="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,250,0,0" Background="#9BC1EED5" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Width="78" Height="30" VerticalAlignment="Top"/>
+        <TextBox x:Name="edittext_max_revoluciones" IsEnabled="False" Text="6000" HorizontalAlignment="Left" Margin="18,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="24"/>
+        <Label x:Name="label_revoluciones_max" Content="Revoluciones máximas" HorizontalAlignment="Left" Margin="3,16,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="edittext_caballos" IsEnabled="True" Text="1000" HorizontalAlignment="Left" Margin="18,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontWeight="Bold" FontSize="24" TextChanged="edittext_max_revoluciones_Copiar_TextChanged"/>
+        <Label x:Name="label_caballos" Content="Caballos de potencia" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Rectangle x:Name="r_medidor_revoluciones" HorizontalAlignment="Left" Height="283" Margin="533,16,0,0" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="50"/>
+        <Rectangle x:Name="r_revoluciones" HorizontalAlignment="Left" Height="274" Margin="538,21,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="40">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF369D4F" Offset="1"/>
                     <GradientStop Color="Red" Offset="0"/>
-                    <GradientStop Color="#FFD5D735" Offset="0.645"/>
-                    <GradientStop Color="#FFC9933C" Offset="0.358"/>
+                    <GradientStop Color="#FFD5D735" Offset="0.55"/>
+                    <GradientStop Color="#FFC9933C" Offset="0.25"/>
                 </LinearGradientBrush>
             </Rectangle.Fill>
             <Rectangle.OpacityMask>
-                <LinearGradientBrush StartPoint="0.2,0.2" EndPoint="1,1.5">
+                <LinearGradientBrush x:Name="gradiente_ocultar_revoluciones" StartPoint="1,1" EndPoint="1,3">
                     <LinearGradientBrush.GradientStops>
-                        <GradientStop Offset="0.2" Color="Black"/>
-                        <GradientStop Offset="0" Color="Transparent"/>
+                        <GradientStop Offset="0.001" Color="Black"/>
+                        <GradientStop Offset="0" Color="#00000000"/>
                     </LinearGradientBrush.GradientStops>
                 </LinearGradientBrush>
             </Rectangle.OpacityMask>
         </Rectangle>
+        <Button Style="{DynamicResource ButtonStyle1}" x:Name="button_arrancar" Background="{StaticResource LlaveOff}" HorizontalAlignment="Left" Margin="518,316,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="button_arrancar_Click" BorderBrush="{x:Null}"/>
+        <Image Source="Images/picanto.png" HorizontalAlignment="Left" Height="100" Margin="0,316,0,0" VerticalAlignment="Top" Width="193" Stretch="UniformToFill"/>
+        <Rectangle HorizontalAlignment="Left" Height="145" Margin="0,289,0,0" Stroke="Black" VerticalAlignment="Top" Width="200"/>
+        <ComboBox HorizontalAlignment="Left" Margin="18,300,0,0" VerticalAlignment="Top" Width="165"/>
     </Grid>
 </Window>

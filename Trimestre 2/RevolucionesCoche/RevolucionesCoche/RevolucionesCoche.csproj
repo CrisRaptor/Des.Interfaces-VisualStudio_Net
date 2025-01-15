@@ -104,5 +104,18 @@
   <ItemGroup>
     <Resource Include="Images\cuentarrevoluciones.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\llave-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\llave-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\picanto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pedal-acelerador-on.png" />
+    <Resource Include="Images\pedal-freno-on.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

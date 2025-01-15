@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\revolucionescoche\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|solutionrelative:revolucionescoche\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\revolucionescoche\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|solutionrelative:revolucionescoche\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 2\\revolucionescoche\\revolucionescoche\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|solutionrelative:revolucionescoche\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 2\\revolucionescoche\\revolucionescoche\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFB943FD-679C-4276-9CD6-1B02CAE06AB7}|RevolucionesCoche\\RevolucionesCoche.csproj|solutionrelative:revolucionescoche\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,29 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\RevolucionesCoche\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RevolucionesCoche\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\RevolucionesCoche\\MainWindow.xaml*",
-              "RelativeToolTip": "RevolucionesCoche\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\RevolucionesCoche\\MainWindow.xaml",
+              "RelativeToolTip": "RevolucionesCoche\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-09T08:17:09.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\RevolucionesCoche\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RevolucionesCoche\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\RevolucionesCoche\\RevolucionesCoche\\MainWindow.xaml.cs",
               "RelativeToolTip": "RevolucionesCoche\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswCoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T08:17:08.708Z",
               "EditorCaption": ""
