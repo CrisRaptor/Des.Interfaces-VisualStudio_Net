@@ -1,0 +1,15 @@
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\bin\Debug\Coche_WPF.exe.config
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\bin\Debug\Coche_WPF.exe
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\bin\Debug\Coche_WPF.pdb
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.csproj.AssemblyReference.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\App.g.cs
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF_MarkupCompile.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF_MarkupCompile.lref
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\MainWindow.baml
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.g.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.Properties.Resources.resources
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.csproj.GenerateResource.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.exe
+C:\Users\ALUMNO2425\Documents\VSCommunity\Trimestre 2\Coche_WPF\Coche_WPF\obj\Debug\Coche_WPF.pdb

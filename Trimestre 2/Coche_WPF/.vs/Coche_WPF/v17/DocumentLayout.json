@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 2\\coche_wpf\\coche_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|solutionrelative:coche_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 2\\coche_wpf\\coche_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|solutionrelative:coche_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Coche_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "Coche_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T08:15:59.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Coche_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Coche_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T08:15:59.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 153,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

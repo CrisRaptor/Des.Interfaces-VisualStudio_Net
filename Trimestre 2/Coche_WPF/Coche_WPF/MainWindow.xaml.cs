@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -16,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Resources;
 using System.Windows.Shapes;
 
-namespace RevolucionesCoche
+namespace Coche_WPF
 {
     public partial class MainWindow : Window
     {
@@ -34,7 +32,7 @@ namespace RevolucionesCoche
 
 
         //////Eventos de controladores
-        
+
         //Ajusta los caballos a un maximo y minimo
         private void edittext_max_revoluciones_Copiar_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -45,7 +43,8 @@ namespace RevolucionesCoche
             if (Convert.ToInt64(edittext_caballos.Text) > max_caballos)
             {
                 edittext_caballos.Text = max_caballos.ToString();
-            } else if (Convert.ToInt64(edittext_caballos.Text) < min_caballos)
+            }
+            else if (Convert.ToInt64(edittext_caballos.Text) < min_caballos)
             {
                 edittext_caballos.Text = min_caballos.ToString();
             }
@@ -56,7 +55,7 @@ namespace RevolucionesCoche
         private void acelerador_Click(object sender, RoutedEventArgs e)
         {
             _revoluciones += ACELERACION;
-            _revoluciones = _revoluciones > _max_revoluciones ? _max_revoluciones:_revoluciones;
+            _revoluciones = _revoluciones > _max_revoluciones ? _max_revoluciones : _revoluciones;
             cambiarRevoluciones();
         }
 
@@ -92,38 +91,34 @@ namespace RevolucionesCoche
             if (_revoluciones <= 0)
             {//Encender el coche
                 button_arrancar.Background = llave_on;
-                button_arrancar.IsEnabled = false;
                 edittext_caballos.IsEnabled = false;
                 while (_revoluciones < revoluciones_arranque)
                 {
                     await Task.Delay(ratio_arranque_ms);
-                    _revoluciones += (((ACELERACION < aceleracion_minima) ? aceleracion_minima : ACELERACION)-2)/2;
-                    
+                    _revoluciones += (((ACELERACION < aceleracion_minima) ? aceleracion_minima : ACELERACION) - 2) / 2;
+
                     cambiarRevoluciones();
                 }
                 _revoluciones = revoluciones_arranque;
-                cambiarRevoluciones(); 
+                cambiarRevoluciones();
                 acelerador.IsEnabled = true;
                 freno.IsEnabled = true;
-                button_arrancar.IsEnabled = true;
             }
             else
             {//Apagar el coche
                 button_arrancar.Background = llave_off;
-                button_arrancar.IsEnabled = false;
                 acelerador.IsEnabled = false;
                 freno.IsEnabled = false;
                 while (_revoluciones > revoluciones_arranque_apagado)
-                { 
+                {
                     await Task.Delay(ratio_arranque_ms);
 
-                    _revoluciones-= ((FRENADO < frenado_minimo) ?(frenado_minimo):(FRENADO)) / 2; 
+                    _revoluciones -= ((FRENADO < frenado_minimo) ? (frenado_minimo) : (FRENADO)) / 2;
                     cambiarRevoluciones();
                 }
                 _revoluciones = revoluciones_arranque_apagado;
                 cambiarRevoluciones();
                 edittext_caballos.IsEnabled = true;
-                button_arrancar.IsEnabled = true;
             }
         }
 
@@ -139,7 +134,7 @@ namespace RevolucionesCoche
             texto_revoluciones_digital.Content = _revoluciones.ToString();
             RotateTransform rotacion = new RotateTransform(calcularAngulo(_revoluciones, _max_revoluciones, angulo_total, angulo_inicial));
             imagen_puntero_revoluciones.RenderTransform = rotacion;
-            gradiente_ocultar_revoluciones.StartPoint = new Point(1, 1-(Convert.ToDouble(_revoluciones) / _max_revoluciones));
+            gradiente_ocultar_revoluciones.StartPoint = new Point(1, 1 - (Convert.ToDouble(_revoluciones) / _max_revoluciones));
         }
 
         //Calcula el angulo de una imagen segun su valor actual y su maximo
