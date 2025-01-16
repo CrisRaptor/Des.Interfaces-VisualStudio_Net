@@ -117,5 +117,8 @@
     <Resource Include="Images\pedal-acelerador-on.png" />
     <Resource Include="Images\pedal-freno-on.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\volante.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

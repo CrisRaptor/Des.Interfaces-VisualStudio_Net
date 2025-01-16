@@ -39,7 +39,7 @@ namespace RevolucionesCoche
         private void edittext_max_revoluciones_Copiar_TextChanged(object sender, TextChangedEventArgs e)
         {
             //Variables
-            int min_caballos = 100, max_caballos = 150;
+            int min_caballos = 50, max_caballos = 200;
 
             //Limite de caballos
             if (Convert.ToInt64(edittext_caballos.Text) > max_caballos)
