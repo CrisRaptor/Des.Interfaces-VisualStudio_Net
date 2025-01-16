@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Coche_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="705">
+        Icon="/Images/volante.png" Title="Cuentarrevoluciones en WPF" Height="450" Width="705">
     <Window.Resources>
         <ImageBrush x:Key="AccelerateImage" ImageSource="Images/pedal-acelerador.png" Stretch="Fill"/>
         <ImageBrush x:Key="BrakeImage" ImageSource="Images/pedal-freno.png" Stretch="Fill"/>

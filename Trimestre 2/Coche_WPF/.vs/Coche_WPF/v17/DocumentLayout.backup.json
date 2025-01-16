@@ -7,7 +7,10 @@
       "RelativeMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|solutionrelative:coche_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 2\\coche_wpf\\coche_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALUMNO2425\\AppData\\Local\\Temp\\.vsdbgsrc\\933a3106d484695a886167923e25095d0092d44a058a3d597cd32db1c0393a59\\Window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\coche_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A159DBDA-4350-439C-90D1-1C3165656DF1}|Coche_WPF\\Coche_WPF.csproj|solutionrelative:coche_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,32 +21,44 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\AppData\\Local\\Temp\\.vsdbgsrc\\933a3106d484695a886167923e25095d0092d44a058a3d597cd32db1c0393a59\\Window.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\933a3106d484695a886167923e25095d0092d44a058a3d597cd32db1c0393a59\\Window.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\AppData\\Local\\Temp\\.vsdbgsrc\\933a3106d484695a886167923e25095d0092d44a058a3d597cd32db1c0393a59\\Window.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\933a3106d484695a886167923e25095d0092d44a058a3d597cd32db1c0393a59\\Window.cs [Solo lectura]",
+              "ViewState": "AgIAABoTAAAAAAAAAAAawCUTAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:20:26.869Z",
+              "EditorCaption": " [Solo lectura]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Coche_WPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml",
-              "RelativeToolTip": "Coche_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml*",
+              "RelativeToolTip": "Coche_WPF\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-16T08:15:59.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Coche_WPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 2\\Coche_WPF\\Coche_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "Coche_WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T08:15:59.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T08:15:59.233Z"
             }
           ]
         },

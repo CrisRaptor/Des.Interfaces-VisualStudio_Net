@@ -8,14 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/cuentarrevoluciones.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/llave-off.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/llave-on.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/pedal-acelerador-on.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/pedal-acelerador.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/pedal-freno-on.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/pedal-freno.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/picanto-520x260.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/pointer.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/volante.png")]
 
 

@@ -105,5 +105,8 @@
     <Resource Include="Images\picanto.png" />
     <Resource Include="Images\pointer.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\volante.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
