@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\MarcadorFutbol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|MarcadorFutbol\\MarcadorFutbol.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 1\\examencomponente\\marcadorfutbol\\marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|MarcadorFutbol\\MarcadorFutbol.csproj|solutionrelative:marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|MarcadorFutbol\\MarcadorFutbol.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\MarcadorFutbol\\marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|MarcadorFutbol\\MarcadorFutbol.csproj|solutionrelative:marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|MarcadorFutbol\\MarcadorFutbol.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\trimestre 1\\examencomponente\\marcadorfutbol\\marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362F89BB-B443-48EC-9868-51441BBCA8E8}|MarcadorFutbol\\MarcadorFutbol.csproj|solutionrelative:marcadorfutbol\\marcador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Marcador.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "RelativeDocumentMoniker": "MarcadorFutbol\\Marcador.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "RelativeToolTip": "MarcadorFutbol\\Marcador.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAwHQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAqwHAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T11:06:13.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Marcador.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Trimestre 1\\ExamenComponente\\MarcadorFutbol\\MarcadorFutbol\\Marcador.cs",
               "RelativeDocumentMoniker": "MarcadorFutbol\\Marcador.cs",

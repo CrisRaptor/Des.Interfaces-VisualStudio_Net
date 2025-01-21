@@ -3,18 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BA266B-06FD-4C5C-A0C3-4C32E35389A7}|..\\Clase1_Controles\\Clase1_Controles\\Termometro.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\clase1_controles\\clase1_controles\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785A01CE-44B1-48A7-B87C-5AD8E4DE52E9}|ComponentTest\\ComponentTest.csproj|solutionrelative:componenttest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BA266B-06FD-4C5C-A0C3-4C32E35389A7}|..\\Clase1_Controles\\Clase1_Controles\\Termometro.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\clase1_controles\\clase1_controles\\termometro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|..\\Chrono\\Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vscommunity\\chrono\\chronometer\\chrono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chrono\\Chronometer\\Dots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -42,24 +42,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\ComponentTest\\Form1.cs",
               "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\ComponentTest\\Form1.cs",
               "RelativeToolTip": "ComponentTest\\Form1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T09:29:29.472Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "chrono.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Chrono\\Chronometer\\chrono.cs",
               "RelativeDocumentMoniker": "..\\Chrono\\Chronometer\\chrono.cs",
@@ -72,26 +73,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Termometro.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Clase1_Controles\\Clase1_Controles\\Termometro.cs",
               "RelativeDocumentMoniker": "..\\Clase1_Controles\\Clase1_Controles\\Termometro.cs",
-              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Clase1_Controles\\Clase1_Controles\\Termometro.cs*",
-              "RelativeToolTip": "..\\Clase1_Controles\\Clase1_Controles\\Termometro.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwEIAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\Clase1_Controles\\Clase1_Controles\\Termometro.cs",
+              "RelativeToolTip": "..\\Clase1_Controles\\Clase1_Controles\\Termometro.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:20:16.714Z"
+              "WhenOpened": "2024-11-19T13:20:16.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\ComponentTest\\Form1.cs",
               "RelativeDocumentMoniker": "ComponentTest\\Form1.cs",
               "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VSCommunity\\ComponentTest\\ComponentTest\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "ComponentTest\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:50:39.902Z"
+              "WhenOpened": "2024-10-30T11:50:39.902Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",

@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chronometer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|c:\\users\\alumno2425\\documents\\vs community\\chronometer\\chronometer\\chronometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB3EC58-3B0D-4E67-9178-6CFE2D0A20AE}|Chronometer\\Chronometer.csproj|solutionrelative:chronometer\\chronometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chronometer.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chronometer\\Chronometer\\chronometer.cs",
+              "RelativeDocumentMoniker": "Chronometer\\chronometer.cs",
+              "ToolTip": "C:\\Users\\ALUMNO2425\\Documents\\VS Community\\Chronometer\\Chronometer\\chronometer.cs",
+              "RelativeToolTip": "Chronometer\\chronometer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T09:50:37.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
