@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button_cargar = new System.Windows.Forms.Button();
             this.textBox_longest_word = new System.Windows.Forms.TextBox();
             this.label_longest_word = new System.Windows.Forms.Label();
@@ -111,7 +110,6 @@
             this.Controls.Add(this.label_longest_word);
             this.Controls.Add(this.textBox_longest_word);
             this.Controls.Add(this.button_cargar);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Lista de Palabras";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
